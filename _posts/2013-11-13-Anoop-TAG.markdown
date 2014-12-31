@@ -1,0 +1,8 @@
+---
+layout: post
+title: Tutorial on Tree-Adjoining Grammars
+---
+
+In the lab meeting tomorrow, Anoop will continue his tutorial on Tree-Adjoining Grammars. The slides can be found <a href="http://www.cs.sfu.ca/~anoop/papers/pdf/wata-2012.pdf">here</a>. 
+
+

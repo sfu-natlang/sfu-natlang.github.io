@@ -1,0 +1,14 @@
+---
+layout: post
+title: Talk by Mark Schmidt
+root: ../../
+---
+
+In the lab meeting tomorrow, July 3, 2013, Mark Schmidt will give a talk. The details are below:  
+
+
+"This talk considers the very basic but ubiquitous problem of optimizing the sum of a large number of differentiable functions. Classical gradient methods achieve a linear convergence rate for this problem at the cost of evaluating each term on each iteration. In contrast, stochastic gradient methods yield inexpensive iterations by only evaluating a single term in the sum on each iteration, but unfortunately have sublinear convergence rates. We explore two strategies that exhibit the benefits of both approaches. First, we show that a linear convergence rate can be achieved at the expense of evaluating an increasing number of functions on each iteration. Second and more surprisingly, we propose a new method that only needs to evaluate a single term in the sum on each iteration but that still achieves a linear convergence rate. Our analysis shows that for certain problems the latter algorithm is faster than known lower bounds for ANY stochastic gradient or full gradient method in terms of passes through the data. Numerical experiments indicate that empirically the new algorithms can dramatically outperform standard methods."
+
+The lab meeting will be at TASC1 9408 from 1230 hours.
+
+

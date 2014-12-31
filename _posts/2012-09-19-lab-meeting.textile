@@ -1,0 +1,19 @@
+---
+layout: post
+title: Two thesis proposal practice talks
+root: ../../
+---
+
+Majid Razmara will give a talk on his thesis proposal titled "Combining Diverse Sources In Statistical Machine Translation". 
+
+Razmara, M. Combining Diverse Sources In Statistical Machine Translation.
+
+abstract:
+Statistical machine translation is often faced with the problem of combining training data from many diverse sources into a single translation model. We propose a novel approach, ensemble decoding,which combines a number of translation systems dynamically at the decoding step. We evaluate performance on a domain adaptation setting where a model trained on large parliamentary domain is adapted to the medical domain, we then translate sentences from the medical domain. Our experimental results show that ensemble decoding outperforms various strong baselines including mixture models, the current state-of-the-art for domain adaptation in machine translation. Moreover, we propose a number of extensions, both in experiments and methods, to ensemble decoding. Combining arbitrary number of (heterogeneous) translation models at decoding time and studying characteristics of different mixture operations are among those. In addition, new methods for adjusting the contribution of each component model (i.e. tuning component hyper-parameters) are proposed. We also propose approaches to extend our method for the multi-parallel-corpus scenario where we can take advantage of a number of pivot languages to foster translating between language-pairs with scarce parallel data.
+Baskaran Sankaran will give a talk on his thesis proposal titled “Improvements in Hierarchical Phrase-based Machine Translation”.
+
+
+
+Sankaran, B. Improvements in Hierarchical Phrase-Based Machine Translation. 
+abstract: 
+The hierarchical phrase-based translation (Hiero) is a model for statistical machine translation (SMT) which captures discontiguous phrase pairs and re-ordering between source and target languages using a synchronous context-free grammar (SCFG). Hiero models are more expressive than phrase-based models and yet are much simpler than full syntax-based models. We propose improvements to the Hiero framework in learning Hiero grammars and also in training feature weights. We have been working on Bayesian models for extracting compact but accurate Hiero grammars. The model extracts minimal source-target translation units resulting in substantial reduction in model size without impacting the translation performance. We further extend our model in a distributed framework employing Variational inference to do exact inference. This allows us to scale inference to very large data sets commonly used in SMT. This is in contrast to the existing work that typically use approximate inference in the distributed framework. In the second part of the thesis we propose a Bayesian model for learning phrasal alignments. We also extend this approach to simultaneously extract a Hiero grammar along with phrasal alignments, in a cascade framework. The inference procedure iteratively infers the alignments and the grammar by fixing the other. This cascade model removes the traditional disconnect between the alignments and grammar and also ensures that the sampled alignments are more appropriate for the translation. We also propose a new approach for improving feature weight training by jointly optimizing towards multiple machine translation evaluation metrics and our results in this direction so far are promising. Our approach could be applied to different SMT frameworks as well as for both pair-wise and batch training settings.

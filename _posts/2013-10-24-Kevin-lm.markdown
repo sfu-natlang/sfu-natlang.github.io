@@ -1,0 +1,18 @@
+---
+layout: post
+title: Learning Word Representations in Context
+---
+
+Kevin Duh visited Natlang on 23rd October, and also gave a talk about his recent work on deep learning language models. 
+
+
+
+**Abstract**:
+
+Unsupervised learning of word representations provides a simple and effective way to improve the robustness of Natural Language Processing (NLP) systems. Exploiting large amounts of raw text, word representations based on based on clustering and neural language model algorithms can be used as more generalizable features and plugged in to existing NLP systems. Positive results have been demonstrated in dependency parsing (Koo2008), named entity recognition (Turian2010), part-of-speech tagging (Huang2013), and sentiment analysis (Socher2013), among others. 
+
+Most word representation learning algorithms are static. I.e., there is only one representation per word type, and this same representation is employed in all occurrences of the word token. However, intuitively we know that word meaning and usage ought to change depending on the context. For example, the idea of co-compositionality in Generative Lexicon Theory states that a verb may change its meaning depending on the object it takes, and vice versa. I will present a neural language model that learns dynamic word representations using inspirations from this idea. I will also survey other recent works and present preliminary results on the application of such dynamic word representations to tagging and parsing tasks. 
+
+**Bio**:
+
+Kevin Duh is an assistant professor at the Nara Institute of Science and Technology (NAIST), Graduate School of Information Science. He received his B.S. in 2003 from Rice University and Ph.D. in 2009 from the University of Washington, both in Electrical Engineering. He was at NTT Communication Science Labs from 2009 to 2012. His research interests are in Natural Language Processing and Machine Learning.

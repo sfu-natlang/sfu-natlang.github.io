@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Syntax-to-Morphology Mapping in Factored SMT: Talk by Kemal Oflazer"
+root: ../../
+---
+
+!<{width: 150px}http://www.andrew.cmu.edu/user/ko/ko-picture.jpg(Kemal Oflazer will give a talk at SFU)!
+
+* Title: Syntax-to-Morphology Mapping in Factored SMT
+* Speaker: Dr. Kemal Oflazer, Carnegie Mellon University - Qatar
+* Date: Monday, June 11th at 2:30 pm
+* Location: Applied Science Building, IRMACS Centre, Rm10900, Burnaby Campus
+
+h3. Abstract
+
+Morphology, in many morphologically complex languages, encodes information that is expressed with syntax involving a series of function words. In such cases, factored phrase-based SMT is not directly applicable as there is no relation between the morphological structures of words in the source language and the target language. In this talk we present a scheme to employ factored phrase-based SMT when the morphological structures of the source and target languages are widely disparate, and experiment with it in SMT between English and Turkish.
+
+h3. Biography
+
+Kemal Oflazer received his PhD in Computer Science from Carnegie Mellon University and MS in CS and BS in EE degrees from Middle East Technical University in Ankara Turkey. He is currently a faculty member at Carnegie Mellon University - Qatar. Prior to this, he was on the faculties of Sabanci University in Istanbul and Bilkent University in Ankara, Turkey. He has held visiting positions at Computing Research Laboratory at New Mexico State University, and at the Language Technologies Institute, Carnegie Mellon University, Pittsburgh, PA. He served on the Editorial Boards of Machine Translation, Computational Linguistics and Journal of AI Research, and is currently the Book Reviews Editor for Natural Language Engineering. He also served as the Program Co-chair for 43rd Annual Meeting of the Association for Computational Linguistics in 2005, in Ann Arbor. His current research interests are in statistical machine translation into morphologically complex languages, using language processing for language learning applications.
+
+"Kemal Oflazer's home page":http://www.andrew.cmu.edu/user/ko/
+

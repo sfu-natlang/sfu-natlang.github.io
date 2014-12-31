@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Probase: A Probabilistic Semantic Network for Text Understanding by Haixun Wang"
+root: ../../
+---
+
+!<{width: 150px}http://research.microsoft.com/en-us/people/haixunw/dsc_1331-1.jpg(Haixun Wang talks about Probase)!
+
+h2. Seminar announcement
+
+* Title: Probase, A Probabilistic Semantic Network for Text Understanding
+* Speaker: Haixun Wang, Ph.D. Senior Researcher, Microsoft Research Asia
+* Date and time: 10:30 am, July 5 (Thursday), 2012
+* Location: TASC I Building, Room 9204, Burnaby Campus
+
+h3. Abstract
+
+Integrating, representing, and reasoning over human knowledge is a computational grand challenge for the 21st century. Currently, most IR approaches are keyword-based statistical approaches. When the input is sparse, noisy, and ambiguous, knowledge is needed to fill the gap. In this lecture, I will focus on knowledge powered information retrieval. I will introduce the Probase project at Microsoft Research Asia, whose goal is to enable machines to understand human communications. Probase is a universal, probabilistic taxonomy more comprehensive than any current taxonomy. It contains more than 2 million concepts, harnessed automatically from a corpus of 1.68 billion web pages and two years’ worth of search-log data. It enables probabilistic interpretations of search queries, document titles, ad keywords, etc. The probabilistic nature also enables it to incorporate heterogeneous information naturally. I will explain how the core taxonomy, which contains hypernym-hyponym relationships, is constructed and how it models knowledge's inherent uncertainty, ambiguity, and inconsistency.
+
+h3. Bio
+
+Haixun Wang is a senior researcher at Microsoft Research Asia, where he manages the Data Management, Analytics and Services group. Before joining Microsoft, he had been a research staff member at IBM T. J. Watson Research Center for 9 years. He was Technical Assistant to Stuart Feldman (Vice President of Computer Science of IBM Research) from 2006 to 2007, and Technical Assistant to Mark Wegman (Head of Computer Science of IBM Research) from 2007 to 2009. Haixun Wang has published more than 120 research papers in referred international journals and conference proceedings. He is associate editor of Distributed and Parallel Databases (DAPD), IEEE Transactions of Knowledge and Data Engineering (TKDE), Knowledge and Information System (KAIS), Journal of Computer Science and Technology (JCST). He is PC co-Chair of CIKM 2012, ICMLA 2011, WAIM 2011. Haixun Wang got the ER 2008 Conference best paper award (DKE 25 year award), and ICDM 2009 Best Student Paper run-up award.
+

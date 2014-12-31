@@ -1,0 +1,12 @@
+---
+layout: post
+title: WATA 2012
+root: ../../
+---
+
+!{{ site.baseurl }}images/wata-2012.png(Anoop Sarkar presents tutorial on tree-adjoining grammars at WATA 2012)!
+
+Anoop Sarkar will present a 3 hour tutorial on Tree-Adjoining Grammars at the 6th International Workshop on Weighted Automata: <a href="http://wwwtcs.inf.tu-dresden.de/wata2012/">WATA 2012</a> in Dresden, Germany.
+
+The presentation slides are available for download from <a href="http://bit.ly/anoop-wata2012">bit.ly/anoop-wata2012</a>.
+

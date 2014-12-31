@@ -1,0 +1,11 @@
+---
+layout: post
+title: New website
+root: ../../
+---
+
+The website has been updated with a new version by Max Whitney and Anoop Sarkar. It uses "Jekyll":http://jekyllrb.com/ and "Bootstrap":http://twitter.github.com/bootstrap/. The source is available "on github":https://github.com/sfu-natlang/sfu-natlang.website.
+
+We also have a new logo which Anoop made:
+!{{ site.baseurl }}logo.png(Logo)!
+ 

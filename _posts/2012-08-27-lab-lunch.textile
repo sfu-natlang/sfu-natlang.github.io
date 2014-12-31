@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Lab lunch"
+root: ../../
+---
+
+On Friday August 24 we went for a lab lunch at "Harambe Ethiopian Restaurant":http://www.haramberestaurant.com, particularly to celebrate recent successful "thesis":{{ site.baseurl }}posts/2012-08-17-marzieh-masters-defence-passed "defences":{{ site.baseurl }}posts/2012-08-24-max-defense-passed, "depth examinations":{{ site.baseurl }}posts/2012-08-17-maryam-phd-depth-exam-passed, thesis proposals, and summer survivals.
+
+!{width: 400px}{{ site.baseurl }}images/lunch-summer-2012-group.jpg(Us at the restaurant)!:{{ site.baseurl }}images/lunch-summer-2012-group.jpg
+!{width: 400px}{{ site.baseurl }}images/lunch-summer-2012-platter.jpg(A platter of Ethiopian food)!:{{ site.baseurl }}images/lunch-summer-2012-platter.jpg

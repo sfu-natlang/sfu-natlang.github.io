@@ -1,0 +1,9 @@
+---
+layout: post
+title: 'Lab meeting: 5/16 11:00am'
+root: ../../
+---
+
+
+The next lab meeting will be on Wednesday May 16, 2012 at 11:00am, in TASC1 9408. We will be watching a talk, followed by discussion.
+

@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'Lab meeting: 8/16 10:00am'
+root: ../../
+---
+
+
+This week’s natlang lab meeting is on Tuesday August 16, 2011 at 10:00am, in TASC1 9408.
+
+
+
+
+
+
+We will be doing the debrief for EMNLP 2011.
+

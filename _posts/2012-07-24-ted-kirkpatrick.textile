@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Design talk versus science talk by Ted Kirkpatrick"
+root: ../../
+---
+
+!<{width: 150px}http://www.cs.sfu.ca/people/Faculty/ted/ted-thumbnail.jpg(Ted Kirkpatrick)!
+
+h2. Lab Meeting
+
+* Title: Design talk versus science talk: A computational linguistics comparison of research articles in computing and climate science
+* Speaker: Ted Kirkpatrick
+* Time: 11am
+* Place: TASC1 9408
+
+h2. Abstract
+
+What is computing?  Is it a kind of science, applied math, engineering, or something else?  I will report initial results of using computational linguistics to compare research articles in computing and climate science.  Simple vocabulary analysis shows that the computing articles emphasize design and argument from first principles—how a system ought to be—whereas the climate science articles emphasize measurement and models—how the world was found to be.  This first analysis, however, is too simple to draw any robust conclusions.  I will describe my analysis pipeline and my two corpora of articles, then open the floor to suggestions for methods that will produce more defensible results.  I will also discuss the practical challenges of gathering corpora of sufficient quality, of testing specific hypotheses of language use rather than trawling a large corpus for whatever correlations might be found, and of using computational linguistics as a tool for addressing questions outside linguistics.
+
+h2. Speaker bio
+
+Ted Kirkpatrick joined the SFU School of Computing Science in 2001.  He has used experimental methods to develop interfaces that increase the fluency of expert computer use.  Over time, he became frustrated by an apparent incompatibility between experimental methods and interface design.  The results of well-designed experiments were only rarely interesting, while the interesting questions in interface design were not addressable by experiments.  Suspecting this problem ran deeper than choices of experimental design, he began exploring machine analysis of research papers to contrast the styles of evidence in natural sciences and computing.

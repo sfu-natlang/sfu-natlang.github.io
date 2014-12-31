@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Press release about our lab research"
+root: ../../
+---
+
+On May 22, 2013 SFU had "a press release about our lab research":http://www.sfu.ca/pamr/media-releases/2013/advancing-research-on-lifes-origins-language-translation.html and the Natural Sciences and Engineering Research Council (NSERC) Discovery Accelerator Supplement (DAS) award to Anoop Sarkar.
+
+

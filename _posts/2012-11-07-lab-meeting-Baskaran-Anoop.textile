@@ -1,0 +1,17 @@
+---
+layout: post
+title: AMTA debrief and JoshiFest
+root: ../../
+---
+
+In the lab meeting on Wednesday, 7 November, 2012, Baskaran Sankaran will do a debrief of AMTA 2012, which he attended last week.  Please come prepared with questions or comments about the papers in the AMTA 2012 program:
+
+<a href=" http://amta2012.amtaweb.org/AMTA2012Files/start.htm">AMTA</a>
+
+Anoop Sarkar will do a debrief of JoshiFest, which was a workshop in a festschrift style. It was organized at UPenn on the occasion of Dr. Joshi's retirement on Oct 22nd, 2012.
+
+Videos of the talks from JoshiFest available here:
+
+<a href="https://www.cis.upenn.edu/joshi-fest/symposium.html">Videos</a>
+
+

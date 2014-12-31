@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Upcoming Conference deadlines"
+root: ../../
+---
+In the lab meeting this week, 10th of Sep, we will discuss upcoming conference deadlines and how to submit papers to them. The meeting will be at TASC1 9408 from 1030 hours.
+

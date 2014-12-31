@@ -1,0 +1,9 @@
+---
+layout: post
+title: "language use in Lincoln"
+root: ../../
+---
+
+"Nobody said Racial Equality in 1865":http://www.theatlantic.com/entertainment/archive/2013/01/nobody-said-racial-equality-in-1865-the-anachronistic-english-of-lincoln/266990/
+
+A common strategy to check historical veracity of popular culture: using the "Google n-gram data":http://books.google.com/ngrams to validate the use of phrases in movies and television shows that pride themselves on getting the history right.

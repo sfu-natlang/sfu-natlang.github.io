@@ -1,0 +1,11 @@
+---
+layout: post
+title: Ann talks about a NAACL paper on Emergence of Gricean Maxims
+root: ../../
+---
+
+In the lab meeting on Wednesday, May 8, Ann Clifton is going to discuss a paper by Adam Vogel, Max Bodoia, Chris Potts and Dan Jurafsky on the <a href="http://nlp.stanford.edu/pubs/cards-naacl2013.pdf">Emergence of Gricean Maxims from Multi-Agent Decision Theory</a>. A short description is as follows: 
+
+" This paper trains multiple agents to perform a cooperative task using linguistic information and pragmatic reasoning through a decentralized partially observable markov decision process model.  The authors argue that the models learned exhibit the properties of the "cooperative principle", a pragmatic linguistic theory of how natural language conversation is conducted. "
+
+The lab meeting will start at 1100 hours at TASC1 9408.

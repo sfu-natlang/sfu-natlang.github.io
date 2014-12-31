@@ -1,0 +1,7 @@
+---
+layout: post
+title: Generating Natural Language Questions from Documents 
+root: ../../
+---
+
+The lab meeting will be held at IRMACS 10917.2 on 9th January,2013 from 11:00 am to 1:00 pm. David Lindberg and Fred Popowich will present ongoing work on automatically generating natural language questions from documents. We'll discuss the goals and scope of this work, describe the initial version of our system and its output, and discuss future plans. This work is being done in collaboration with Phil Winne and John Nesbit from the Faculty of Education.

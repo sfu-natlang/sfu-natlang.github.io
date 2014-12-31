@@ -1,0 +1,8 @@
+---
+layout: post
+title: New couch
+root: ../../
+---
+
+The long-awaited couch has finally shown up, and we did some rearranging of the break area.
+[![]({{ site.baseurl }}images/oldsite/couch-300x224.jpg)]({{ site.baseurl }}images/oldsite/couch.jpg)

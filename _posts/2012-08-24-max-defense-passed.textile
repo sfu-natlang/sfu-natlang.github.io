@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Max Whitney passed Masters thesis defence"
+root: ../../
+---
+
+Max Whitney successfully defended his MSc thesis on Thursday August 23 2012. "Slides from the defense":http://www2.cs.sfu.ca/~mwhitney/personal/mwhitney-msc-thesis-2012-slides.pdf are available.
+
+!{width: 400px}{{ site.baseurl }}images/mwhitney-thesis-defense.jpg(Max Whitney defends his Masters thesis)!:{{ site.baseurl }}images/mwhitney-thesis-defense.jpg
+
+Whitney, M. Bootstrapping via graph propagation.
+
+abstract: 
+The Yarowsky algorithm is a simple self-training algorithm for bootstrapping learning from a small number of initial seed rules which has proven very effective in several natural language processing tasks. Bootstrapping a classifier from a small set of seed rules can be viewed as the propagation of labels between examples via features shared between them. This thesis introduces a novel variant of the Yarowsky algorithm based on this view. It is a bootstrapping learning method which uses a graph propagation algorithm with a well defined objective function. The experimental results show that our proposed bootstrapping algorithm achieves state of the art performance or better on several different natural language data sets.
+
+
+

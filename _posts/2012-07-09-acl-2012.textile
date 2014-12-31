@@ -1,0 +1,19 @@
+---
+layout: post
+title: SFU Natlang Lab at ACL 2012
+root: ../../
+---
+
+!>{width: 200px}{{ site.baseurl }}images/max-acl2012.jpg(Max Whitney talks at ACL 2012)!:{{ site.baseurl }}images/max-acl2012-full.jpg
+
+The SFU Natural Language Lab has the following presentations at "ACL 2012":http://www.acl2012.org. Visit us if you are in Jeju Island. Majid Razmara, Max Whitney and Anoop Sarkar are attending the conference.
+
+bq. Long Papers Poster Session: July 9, 6pm-8:30pm
+L-17, _Mixing multiple translation models in statistical machine translation_
+Majid Razmara, George Foster, Baskaran Sankaran and Anoop Sarkar
+
+bq. Session 5C: July 10, 2pm-3:30pm. Machine Learning track
+_Bootstrapping via graph propagation_
+Max Whitney and Anoop Sarkar
+("slides":http://www2.cs.sfu.ca/~mwhitney/personal/yarowsky-propagation-slides.pdf from the presentation)
+
