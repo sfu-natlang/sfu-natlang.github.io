@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Depth Seminar: Baskaran Sankaran - SFU Natural Language Laboratory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website for the North American Chapter of the ACL">
+    <meta name="author" content="Anoop Sarkar">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<!--    <link href="/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <style type="text/css">
+    </style>
+    <link href="/css/extra.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+    </head>
+
+    <body >
+
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-sm">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs visible-sm" href="/index.html">SFU Natlang</a>
+          <a class="navbar-brand visible-md visible-lg" href="/index.html">SFU Natlang</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/about/index.html">About</a></li>
+<!--             <li><a href="/contact/index.html">Contact</a></li>
+ -->            <li><a href="/people/index.html">People</a></li>
+            <li><a href="/publications/index.html">Publications</a></li>
+            <li><a href="/posts/index.html">Posts</a></li>
+            <li><a href="/calendar/index.html">Calendar</a></li>
+            <li><a href="/software/index.html">Software</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img href='images/rss.png'> RSS<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="posts.rss">Posts</a></li>
+              <li><a href="publications.rss">Publications</a></li>
+            </ul>
+          </li>
+          <li><a href="http://www.github.com/sfu-natlang">Github</a></li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Useful Links<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.cs.rochester.edu/~tetreaul/conferences.html">NLP/CL Conference Deadlines</a></li>
+              <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=natlang&amp;loc=en_US">Subscribe by email</a></li>
+              <li><a href="https://wiki.sfu.ca/research/natlang/index.php/Main_Page">Wiki</a></li>
+
+
+            </ul>
+          </li>
+          
+
+          </ul>
+        </div><!-- navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 contentarea">
+           
+               <header class="pageheader">
+                    <h1>Depth Seminar: Baskaran Sankaran</h1>
+               </header>
+           
+           <div class="date">
+05 Dec 2010
+</div>
+
+<p>The depth examination of Baskaran Sankaran was held on 25 Nov 2010.</p>
+
+<p><strong>Title:</strong> A Survey of Unsupervised Grammar Induction</p>
+
+<p><strong>Abstract</strong></p>
+
+<blockquote><p>The automatic induction of natural language grammars without human guidance has been an important challenge in Computational Linguistics. In recent years, there has been a steady improvement in what can be learned from raw text using such methods. We present a survey of the core approaches in the unsupervised learning of formal grammars for natural language.  The unsupervised learning of natural language grammars provides an interesting challenge for machine learning methods since the output of learning is a complex structure and typical supervised approaches require a very large annotated sample in order to obtain accurate generalization over unseen input which is not provided to an unsupervised learner. Without any such annotations to learn from, unsupervised grammar induction seeks to automatically uncover the hidden regularities of language. We show how constraining estimation of the hidden parameters of the model, employing parametric and structural search and the use of prior knowledge in building a probabilistic model of grammar are used to effectively learn natural language grammars from text. We also survey unsupervised grammar induction in a multilingual setting, where the translation in another language can provide useful information to help constrain the learning of a monolingual grammar.</p></blockquote>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+        <div class="container footer">
+            &copy; SFU Natural Language Lab. <a href="http://www.github.com/sfu-natlang/sfu-natlang.website">Fork this website</a>
+       </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bibtex_js.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(function () { 
+    $("[data-toggle='tooltip']").tooltip(); 
+});
+
+bibtex_reader = new BibtexDisplay()
+// TODO better structure for constraints
+constraints = {};
+constraints['LAST'] = 5;
+
+// function get_years(){
+  // years = bibtex_reader.get_years($("#bibtex_input").val());
+  // // years = [{"year":"2014","value":"1"},{"year":"2013","value":"2"}]
+  // $.each(years, function (key, value) {
+  //   $('.panel-title').append('<button class="btn years_btn btn-primary" type="button" value=\''+key+'\' > '+key+' <span class="badge alert-info">'+value+'</span> </button> ');
+  // });
+  // $('.years_btn').click(function() {
+  //             $(".bibtex_template").hide();
+  //             constraints['YEAR']=$(this).val();
+  //             (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //       });
+  // $('.allyears').click(function() {
+  //   $(".bibtex_template").hide();
+  //   delete constraints['YEAR'];
+  //   (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //   });
+// }
+
+function bibtex_js_draw() {
+  $(".bibtex_template").hide();
+  bibtex_reader.displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);//'non',year);
+}
+
+$(document).ready( function() {
+  // $('.years').append('<button class="btn btn-primary" type="button" value=\'2012\' onclick="bibtex_js_draw()"> 2012 </button> ');
+  $("#bibtex_input").load( "publications/publications.bib",   bibtex_js_draw );
+  // $("#bibtex_input").load( "publications/publications.bib",   get_years );
+  
+} );
+</script>
+
+    
+  </body>
+</html>

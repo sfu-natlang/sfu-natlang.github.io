@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Biomedical Text Mining, visit from BC Genome Sciences Centre - SFU Natural Language Laboratory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website for the North American Chapter of the ACL">
+    <meta name="author" content="Anoop Sarkar">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<!--    <link href="/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <style type="text/css">
+    </style>
+    <link href="/css/extra.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+    </head>
+
+    <body >
+
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-sm">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs visible-sm" href="/index.html">SFU Natlang</a>
+          <a class="navbar-brand visible-md visible-lg" href="/index.html">SFU Natlang</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/about/index.html">About</a></li>
+<!--             <li><a href="/contact/index.html">Contact</a></li>
+ -->            <li><a href="/people/index.html">People</a></li>
+            <li><a href="/publications/index.html">Publications</a></li>
+            <li><a href="/posts/index.html">Posts</a></li>
+            <li><a href="/calendar/index.html">Calendar</a></li>
+            <li><a href="/software/index.html">Software</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img href='images/rss.png'> RSS<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="posts.rss">Posts</a></li>
+              <li><a href="publications.rss">Publications</a></li>
+            </ul>
+          </li>
+          <li><a href="http://www.github.com/sfu-natlang">Github</a></li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Useful Links<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.cs.rochester.edu/~tetreaul/conferences.html">NLP/CL Conference Deadlines</a></li>
+              <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=natlang&amp;loc=en_US">Subscribe by email</a></li>
+              <li><a href="https://wiki.sfu.ca/research/natlang/index.php/Main_Page">Wiki</a></li>
+
+
+            </ul>
+          </li>
+          
+
+          </ul>
+        </div><!-- navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 contentarea">
+           
+               <header class="pageheader">
+                    <h1>Biomedical Text Mining, visit from BC Genome Sciences Centre</h1>
+               </header>
+           
+           <div class="date">
+07 Apr 2014
+</div>
+
+<p>Lab meeting on Wed 4/9 at 10:30 <strong>note new time</strong> in TASC1 9208.</p>
+<p>A group of researchers from the BC Genome Sciences Centre will visit us this week to talk about Biomedical Text Mining and Artificial Intelligence Applied to Clinical Reporting.</p>
+<p>The group includes Inanc Birol who is a Senior Scientist at the BC Genome Sciences Centre and Victoria Stuart who will present on the following topic as a way to guide our discussion.</p>
+<blockquote>
+<p>We are a newly-formed group (Jan. 2014) within the <span class="caps">GSC</span> Bioinformatics Technology Lab that seeks to apply a combined natural language processing, text mining, computational linguistics, machine learning, artificial intelligence (<span class="caps">NLP</span>/TM/CL/ML/AI) approach to address the issue of the annotation of clinical reports with (i) the clinical data that is generated through our sequencing pipeline, and (ii) the relevant biomedical literature.  As this is being done in a clinical setting, issues of quality and accuracy (genomic sequencing and analyses), turnaround time (speed), and standardized reporting are critically important.  Our <span class="caps">BTL</span>-AI group is addressing the clinical reporting component by developing protocols to retrieve the biomedical literature relevant to our clinical reports, that will be provided to our end users as annotations that include quality assessments.  In the broader sense, our work is relevant to the issue of information overload affecting all researchers, including the sheer volume of published material such as that provided by PubMed, that currently contains &gt;24 million biomedical records with new records being added at a rate of ~1 million records/year.  Through our project, we will develop and provide the tools needed to automatically search, retrieve, analyze, condense and focus the scientific literature &#8211; transparently returning information in an indicated domain, with confidence measures indicated.  We have been reviewing the current state of the art in this topic area (<span class="caps">NLP</span>/TM/CL/ML/AI) and have identified leading, top-performing tools and resources developed through community efforts (e.g. The BioNLP Shared Task challenges) that we are currently bringing into our lab for evaluation and extension (customization), as needed.</p>
+</blockquote>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+        <div class="container footer">
+            &copy; SFU Natural Language Lab. <a href="http://www.github.com/sfu-natlang/sfu-natlang.website">Fork this website</a>
+       </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bibtex_js.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(function () { 
+    $("[data-toggle='tooltip']").tooltip(); 
+});
+
+bibtex_reader = new BibtexDisplay()
+// TODO better structure for constraints
+constraints = {};
+constraints['LAST'] = 5;
+
+// function get_years(){
+  // years = bibtex_reader.get_years($("#bibtex_input").val());
+  // // years = [{"year":"2014","value":"1"},{"year":"2013","value":"2"}]
+  // $.each(years, function (key, value) {
+  //   $('.panel-title').append('<button class="btn years_btn btn-primary" type="button" value=\''+key+'\' > '+key+' <span class="badge alert-info">'+value+'</span> </button> ');
+  // });
+  // $('.years_btn').click(function() {
+  //             $(".bibtex_template").hide();
+  //             constraints['YEAR']=$(this).val();
+  //             (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //       });
+  // $('.allyears').click(function() {
+  //   $(".bibtex_template").hide();
+  //   delete constraints['YEAR'];
+  //   (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //   });
+// }
+
+function bibtex_js_draw() {
+  $(".bibtex_template").hide();
+  bibtex_reader.displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);//'non',year);
+}
+
+$(document).ready( function() {
+  // $('.years').append('<button class="btn btn-primary" type="button" value=\'2012\' onclick="bibtex_js_draw()"> 2012 </button> ');
+  $("#bibtex_input").load( "publications/publications.bib",   bibtex_js_draw );
+  // $("#bibtex_input").load( "publications/publications.bib",   get_years );
+  
+} );
+</script>
+
+    
+  </body>
+</html>

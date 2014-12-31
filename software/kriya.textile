@@ -1,0 +1,14 @@
+---
+layout: default
+title: Kriya Open-Source Statistical Machine Translation System
+pageclass: software
+---
+
+!{{ site.baseurl }}images/kriya.png(Kriya in Devanagiri.)!
+
+* "Github repository":https://github.com/sfu-natlang/Kriya
+
+Kriya is an implementation of hierarchical phrase-based (hiero) SMT system.  Kriya is entirely implemented in Python and includes both grammar extractor and decoder modules.  If you use this for your research consider citing: 
+
+bq. Baskaran Sankaran, Majid Razmara and Anoop Sarkar. 2012. Kriya – An end-to-end Hierarchical Phrase-based MT System. The Prague Bulletin of Mathematical Linguistics (PBML), (97), 83--98
+

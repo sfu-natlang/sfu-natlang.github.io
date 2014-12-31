@@ -1,0 +1,11 @@
+---
+layout: default
+title: Software
+pageclass: software
+---
+
+* "Kriya":kriya.html - Open-Source Statistical Machine Translation System
+* "Bootstrapping with the Yarowsky algorithm":yarowsky.html
+* "Lensing Wikipedia":lensingwikipedia.html
+* "TroFi Metaphor dataset":trofi.html
+

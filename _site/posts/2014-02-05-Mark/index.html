@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Opening up the black-box - SFU Natural Language Laboratory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website for the North American Chapter of the ACL">
+    <meta name="author" content="Anoop Sarkar">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<!--    <link href="/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <style type="text/css">
+    </style>
+    <link href="/css/extra.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+    </head>
+
+    <body >
+
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-sm">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs visible-sm" href="/index.html">SFU Natlang</a>
+          <a class="navbar-brand visible-md visible-lg" href="/index.html">SFU Natlang</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/about/index.html">About</a></li>
+<!--             <li><a href="/contact/index.html">Contact</a></li>
+ -->            <li><a href="/people/index.html">People</a></li>
+            <li><a href="/publications/index.html">Publications</a></li>
+            <li><a href="/posts/index.html">Posts</a></li>
+            <li><a href="/calendar/index.html">Calendar</a></li>
+            <li><a href="/software/index.html">Software</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img href='images/rss.png'> RSS<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="posts.rss">Posts</a></li>
+              <li><a href="publications.rss">Publications</a></li>
+            </ul>
+          </li>
+          <li><a href="http://www.github.com/sfu-natlang">Github</a></li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Useful Links<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.cs.rochester.edu/~tetreaul/conferences.html">NLP/CL Conference Deadlines</a></li>
+              <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=natlang&amp;loc=en_US">Subscribe by email</a></li>
+              <li><a href="https://wiki.sfu.ca/research/natlang/index.php/Main_Page">Wiki</a></li>
+
+
+            </ul>
+          </li>
+          
+
+          </ul>
+        </div><!-- navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 contentarea">
+           
+               <header class="pageheader">
+                    <h1>Opening up the black-box</h1>
+               </header>
+           
+           <div class="date">
+05 Feb 2014
+</div>
+
+<p>Opening up the black-box, faster optimization methods for non-smooth and big-data problems</p>
+
+<p>In the lab meeting on Wednesday, 5th February, Mark will give a talk about faster optimization methods. The meeting will be at TASC1 9408 from 1130 hours. The details of the talk are below.</p>
+
+<p>The way we solve continuous optimization problems is changing. The ever-growing size of data sets, along with the increasingly-important use of non-smooth objective functions, has forced various scientific and engineering communities to consider 'opening up the black box' and developing custom solvers for their problems. In this talk I will overview my recent work along these lines, highlighting the various applications that motivated the work. The talk will accessible to a general computer science audience and discuss four topics:</p>
+
+<ol>
+<li><p><strong>Sparsity</strong>: How a medical imaging application led me to be interested in feature selection, regularization, and their combination through L1-regularization. I will discuss methods for optimizing a general smooth loss with L1-regularization, and how methods are increasingly using the idea of two-metric minimum-norm sub-gradient projection.</p></li>
+<li><p><strong>Group Sparsity</strong>: How the problem of learning the graph structure in conditional random fields motivates the use of group L1-regularization. This has applications ranging from computer vision to analyzing mutual funds to non-Pearlian causality. I will discuss the class of inexact proximal quasi-Newton methods, which are especially suited to optimization problems where we have an expensive objective function but a simple regularizer or simple constraints.</p></li>
+<li><p><strong>Structured Sparsity</strong>: How the problem of structure learning with higher-order interactions motivates the use of structured sparsity, which allows sparsity patterns such as hierarchical constraints. I will discuss inexact proximal-gradient methods for solving this class of problems.</p></li>
+<li><p><strong>Big-N Problems</strong>: In many data-fitting problems we need to optimize the sum of a large number of functions. First-order deterministic-gradient methods achieve a linear convergence rate for this problem but need to evaluate every function on every iteration. Stochastic-gradient methods only need to evaluate one function, but have a sublinear convergence rate. I will present the stochastic average gradient (SAG) algorithm, which achieves the best of both worlds. SAG not only provably outperforms all possible standard stochastic-gradient methods, but for certain problems it provably outperforms all possible first-order deterministic-gradient methods in terms of passes through the data.</p></li>
+</ol>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+        <div class="container footer">
+            &copy; SFU Natural Language Lab. <a href="http://www.github.com/sfu-natlang/sfu-natlang.website">Fork this website</a>
+       </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bibtex_js.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(function () { 
+    $("[data-toggle='tooltip']").tooltip(); 
+});
+
+bibtex_reader = new BibtexDisplay()
+// TODO better structure for constraints
+constraints = {};
+constraints['LAST'] = 5;
+
+// function get_years(){
+  // years = bibtex_reader.get_years($("#bibtex_input").val());
+  // // years = [{"year":"2014","value":"1"},{"year":"2013","value":"2"}]
+  // $.each(years, function (key, value) {
+  //   $('.panel-title').append('<button class="btn years_btn btn-primary" type="button" value=\''+key+'\' > '+key+' <span class="badge alert-info">'+value+'</span> </button> ');
+  // });
+  // $('.years_btn').click(function() {
+  //             $(".bibtex_template").hide();
+  //             constraints['YEAR']=$(this).val();
+  //             (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //       });
+  // $('.allyears').click(function() {
+  //   $(".bibtex_template").hide();
+  //   delete constraints['YEAR'];
+  //   (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //   });
+// }
+
+function bibtex_js_draw() {
+  $(".bibtex_template").hide();
+  bibtex_reader.displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);//'non',year);
+}
+
+$(document).ready( function() {
+  // $('.years').append('<button class="btn btn-primary" type="button" value=\'2012\' onclick="bibtex_js_draw()"> 2012 </button> ');
+  $("#bibtex_input").load( "publications/publications.bib",   bibtex_js_draw );
+  // $("#bibtex_input").load( "publications/publications.bib",   get_years );
+  
+} );
+</script>
+
+    
+  </body>
+</html>

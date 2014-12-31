@@ -1,0 +1,14 @@
+---
+layout: default
+title: Lensing Wikipedia
+pageclass: software
+---
+
+!{{ site.baseurl }}images/lensingscreen.png(A visual interface to Wikipedia.)!
+
+* "Website":http://lensingwikipedia.cs.sfu.ca
+
+Lensing:Wikipedia is an interface to visually browse through human history as represented in Wikipedia. Wikipedia contains several summary pages of human history, for example 409 BC is a page summarizing important events in 409 B.C. We collected about 2000 such URLs as the raw data for our visualization. We took the English descriptions and performed Semantic Role Labelling on these sentences in order to extract the predicates (verbs) in the sentence and the arguments for each predicate which is then shown in three different linked views: a geographical view, a temporal view and a view of the relationship between the predicates and various entities in the text.
+
+This web site was developed by Ravikiran Vadlapudi and Anoop Sarkar.
+

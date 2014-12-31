@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Large-Scale Paraphrasing - Extraction and Application - SFU Natural Language Laboratory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website for the North American Chapter of the ACL">
+    <meta name="author" content="Anoop Sarkar">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<!--    <link href="/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <style type="text/css">
+    </style>
+    <link href="/css/extra.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+    </head>
+
+    <body >
+
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-sm">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs visible-sm" href="/index.html">SFU Natlang</a>
+          <a class="navbar-brand visible-md visible-lg" href="/index.html">SFU Natlang</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/about/index.html">About</a></li>
+<!--             <li><a href="/contact/index.html">Contact</a></li>
+ -->            <li><a href="/people/index.html">People</a></li>
+            <li><a href="/publications/index.html">Publications</a></li>
+            <li><a href="/posts/index.html">Posts</a></li>
+            <li><a href="/calendar/index.html">Calendar</a></li>
+            <li><a href="/software/index.html">Software</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img href='images/rss.png'> RSS<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="posts.rss">Posts</a></li>
+              <li><a href="publications.rss">Publications</a></li>
+            </ul>
+          </li>
+          <li><a href="http://www.github.com/sfu-natlang">Github</a></li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Useful Links<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.cs.rochester.edu/~tetreaul/conferences.html">NLP/CL Conference Deadlines</a></li>
+              <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=natlang&amp;loc=en_US">Subscribe by email</a></li>
+              <li><a href="https://wiki.sfu.ca/research/natlang/index.php/Main_Page">Wiki</a></li>
+
+
+            </ul>
+          </li>
+          
+
+          </ul>
+        </div><!-- navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 contentarea">
+           
+               <header class="pageheader">
+                    <h1>Large-Scale Paraphrasing - Extraction and Application</h1>
+               </header>
+           
+           <div class="date">
+24 Oct 2013
+</div>
+
+<p>Juri Ganitkevitch visited Natlang on 22nd October and gave a talk about large-scale paraphrasing.</p>
+
+<p><strong>Abstract</strong>:</p>
+
+<p>We present the methods and infrastructure behind the paraphrase database PPDB, a collection of over 220 million syntactically labeled English paraphrase pairs. PPDB is extracted from over 100 million sentences of bilingual parallel data and further scored using distributional similarity information drawn from vast amounts of monolingual text. We discuss the pivoting approach used to extract syntactic paraphrases from bilingual corpora, present challenges and solutions in scaling extraction and application methods to data of this size, and give an overview of our current and forthcoming efforts to expand PPDB's breadth of coverage and depth of annotation.</p>
+
+<p><strong>Bio</strong>:</p>
+
+<p>Juri is a terminal-stage Ph.D. student at the Center for Language and Speech Processing at Johns Hopkins University, advised by Chris Callison-Burch. His main research interest is in scaling paraphrase extraction techniques to large amounts of data, as well as pushing paraphrase applications towards natural language understanding.</p>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+        <div class="container footer">
+            &copy; SFU Natural Language Lab. <a href="http://www.github.com/sfu-natlang/sfu-natlang.website">Fork this website</a>
+       </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bibtex_js.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(function () { 
+    $("[data-toggle='tooltip']").tooltip(); 
+});
+
+bibtex_reader = new BibtexDisplay()
+// TODO better structure for constraints
+constraints = {};
+constraints['LAST'] = 5;
+
+// function get_years(){
+  // years = bibtex_reader.get_years($("#bibtex_input").val());
+  // // years = [{"year":"2014","value":"1"},{"year":"2013","value":"2"}]
+  // $.each(years, function (key, value) {
+  //   $('.panel-title').append('<button class="btn years_btn btn-primary" type="button" value=\''+key+'\' > '+key+' <span class="badge alert-info">'+value+'</span> </button> ');
+  // });
+  // $('.years_btn').click(function() {
+  //             $(".bibtex_template").hide();
+  //             constraints['YEAR']=$(this).val();
+  //             (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //       });
+  // $('.allyears').click(function() {
+  //   $(".bibtex_template").hide();
+  //   delete constraints['YEAR'];
+  //   (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //   });
+// }
+
+function bibtex_js_draw() {
+  $(".bibtex_template").hide();
+  bibtex_reader.displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);//'non',year);
+}
+
+$(document).ready( function() {
+  // $('.years').append('<button class="btn btn-primary" type="button" value=\'2012\' onclick="bibtex_js_draw()"> 2012 </button> ');
+  $("#bibtex_input").load( "publications/publications.bib",   bibtex_js_draw );
+  // $("#bibtex_input").load( "publications/publications.bib",   get_years );
+  
+} );
+</script>
+
+    
+  </body>
+</html>

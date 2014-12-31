@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>Learning Word Representations in Context - SFU Natural Language Laboratory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website for the North American Chapter of the ACL">
+    <meta name="author" content="Anoop Sarkar">
+    <!-- Bootstrap -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+<!--    <link href="/css/bootstrap-theme.min.css" rel="stylesheet" media="screen"> -->
+    <style type="text/css">
+    </style>
+    <link href="/css/extra.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+    </head>
+
+    <body >
+
+    <div class="navbar navbar-inverse navbar-fixed-top navbar-sm">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand visible-xs visible-sm" href="/index.html">SFU Natlang</a>
+          <a class="navbar-brand visible-md visible-lg" href="/index.html">SFU Natlang</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/about/index.html">About</a></li>
+<!--             <li><a href="/contact/index.html">Contact</a></li>
+ -->            <li><a href="/people/index.html">People</a></li>
+            <li><a href="/publications/index.html">Publications</a></li>
+            <li><a href="/posts/index.html">Posts</a></li>
+            <li><a href="/calendar/index.html">Calendar</a></li>
+            <li><a href="/software/index.html">Software</a></li>
+            <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><img href='images/rss.png'> RSS<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="posts.rss">Posts</a></li>
+              <li><a href="publications.rss">Publications</a></li>
+            </ul>
+          </li>
+          <li><a href="http://www.github.com/sfu-natlang">Github</a></li>
+
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Useful Links<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.cs.rochester.edu/~tetreaul/conferences.html">NLP/CL Conference Deadlines</a></li>
+              <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=natlang&amp;loc=en_US">Subscribe by email</a></li>
+              <li><a href="https://wiki.sfu.ca/research/natlang/index.php/Main_Page">Wiki</a></li>
+
+
+            </ul>
+          </li>
+          
+
+          </ul>
+        </div><!-- navbar-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 contentarea">
+           
+               <header class="pageheader">
+                    <h1>Learning Word Representations in Context</h1>
+               </header>
+           
+           <div class="date">
+24 Oct 2013
+</div>
+
+<p>Kevin Duh visited Natlang on 23rd October, and also gave a talk about his recent work on deep learning language models.</p>
+
+<p><strong>Abstract</strong>:</p>
+
+<p>Unsupervised learning of word representations provides a simple and effective way to improve the robustness of Natural Language Processing (NLP) systems. Exploiting large amounts of raw text, word representations based on based on clustering and neural language model algorithms can be used as more generalizable features and plugged in to existing NLP systems. Positive results have been demonstrated in dependency parsing (Koo2008), named entity recognition (Turian2010), part-of-speech tagging (Huang2013), and sentiment analysis (Socher2013), among others.</p>
+
+<p>Most word representation learning algorithms are static. I.e., there is only one representation per word type, and this same representation is employed in all occurrences of the word token. However, intuitively we know that word meaning and usage ought to change depending on the context. For example, the idea of co-compositionality in Generative Lexicon Theory states that a verb may change its meaning depending on the object it takes, and vice versa. I will present a neural language model that learns dynamic word representations using inspirations from this idea. I will also survey other recent works and present preliminary results on the application of such dynamic word representations to tagging and parsing tasks.</p>
+
+<p><strong>Bio</strong>:</p>
+
+<p>Kevin Duh is an assistant professor at the Nara Institute of Science and Technology (NAIST), Graduate School of Information Science. He received his B.S. in 2003 from Rice University and Ph.D. in 2009 from the University of Washington, both in Electrical Engineering. He was at NTT Communication Science Labs from 2009 to 2012. His research interests are in Natural Language Processing and Machine Learning.</p>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+        <div class="container footer">
+            &copy; SFU Natural Language Lab. <a href="http://www.github.com/sfu-natlang/sfu-natlang.website">Fork this website</a>
+       </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bibtex_js.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+$(function () { 
+    $("[data-toggle='tooltip']").tooltip(); 
+});
+
+bibtex_reader = new BibtexDisplay()
+// TODO better structure for constraints
+constraints = {};
+constraints['LAST'] = 5;
+
+// function get_years(){
+  // years = bibtex_reader.get_years($("#bibtex_input").val());
+  // // years = [{"year":"2014","value":"1"},{"year":"2013","value":"2"}]
+  // $.each(years, function (key, value) {
+  //   $('.panel-title').append('<button class="btn years_btn btn-primary" type="button" value=\''+key+'\' > '+key+' <span class="badge alert-info">'+value+'</span> </button> ');
+  // });
+  // $('.years_btn').click(function() {
+  //             $(".bibtex_template").hide();
+  //             constraints['YEAR']=$(this).val();
+  //             (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //       });
+  // $('.allyears').click(function() {
+  //   $(".bibtex_template").hide();
+  //   delete constraints['YEAR'];
+  //   (new BibtexDisplay()).displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);
+  //   });
+// }
+
+function bibtex_js_draw() {
+  $(".bibtex_template").hide();
+  bibtex_reader.displayBibtex($("#bibtex_input").val(), $("#bibtex_display"),constraints);//'non',year);
+}
+
+$(document).ready( function() {
+  // $('.years').append('<button class="btn btn-primary" type="button" value=\'2012\' onclick="bibtex_js_draw()"> 2012 </button> ');
+  $("#bibtex_input").load( "publications/publications.bib",   bibtex_js_draw );
+  // $("#bibtex_input").load( "publications/publications.bib",   get_years );
+  
+} );
+</script>
+
+    
+  </body>
+</html>

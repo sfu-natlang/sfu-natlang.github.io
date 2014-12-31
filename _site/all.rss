@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>All - naacl.org</title>
+	<link></link>
+	<description>
+		All - for the North American Chapter of the Association for Computational Linguistics: NAACL. 
+	</description>
+	<lastBuildDate>Sat, 27 Dec 2014 16:37:20 -0800</lastBuildDate>
+
+	
+<item>
+	<title>Joint Discussion with BC Cancer Agency</title>
+	<description>
+	&lt;p&gt;In this week, Wed Dec 12th, Natlang will have a joint discussion with BC Cancer Agency. Researchers form BC Cancer Agency will present some of their IR and clustering work on PubMed and then Naltang researchers will talk about some of their approaches that combine &lt;span class=&quot;caps&quot;&gt;NLP&lt;/span&gt;, domain adaptation and visualization.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-12-16-Joint-Discussion-with-BC-Cancer-Agency</guid>
+	<link>/posts/2014-12-16-Joint-Discussion-with-BC-Cancer-Agency</link>
+	<pubDate>Tue, 16 Dec 2014 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+	<title>Response-Based Online Structured Prediction by Stefan Riezler</title>
+	<description>
+	&lt;p&gt;In the lab meeting this week, on Wed Dec 3ed, we will be hosting Stefan Riezler from Heidelberg University. He is going to give a talk about Response-Based Online Structured Prediction (with Applications to Grounded Statistical Machine Translation). The meeting will be at TASC1 9204 West 10:30am.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;ABSTRACT&lt;/span&gt;:&lt;br /&gt;
+In response-based structured prediction, instead of a gold-standard structure, the learner is given a response to a predicted structure. Different types of environments such as an extrinsic task, a computer program, or a human, can respond in form of a ranking, an acceptance/rejection decision, or an improvement of the predicted structures. In this talk, we present three instantiations of response-based learning scenarios for grounded statistical machine translation (&lt;span class=&quot;caps&quot;&gt;SMT&lt;/span&gt;), where response signals are elicited by embedding &lt;span class=&quot;caps&quot;&gt;SMT&lt;/span&gt; into cross-lingual information retrieval, into multilingual database access, and into human corrections of translations.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;caps&quot;&gt;BIO&lt;/span&gt;:&lt;br /&gt;
+Prof. Stefan Riezler has been appointed full professor and head of the chair of Linguistic Informatics at Heidelberg University in 2010, after spending a decade in the world’s most renowned industry research labs (Xerox &lt;span class=&quot;caps&quot;&gt;PARC&lt;/span&gt;, Google). He received his PhD in Computational Linguistics from the University of Tübingen in 1998, and then conducted post-doctoral work at Brown University in 1999. Prof. Riezler&amp;#8217;s research focus is on machine learning and statistics applied to natural language processing problems, especially for the application areas of natural-language based web search and statistical machine translation.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-12-01-Response-Based-Online-Structured-Prediction-by-Stefan-Riezler</guid>
+	<link>/posts/2014-12-01-Response-Based-Online-Structured-Prediction-by-Stefan-Riezler</link>
+	<pubDate>Mon, 01 Dec 2014 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+	<title>Singular Value Decomposition Tutorial</title>
+	<description>
+	&lt;p&gt;The topic of the lab meeting this week, Nov 19, is Singular Value Decomposition (&lt;span class=&quot;caps&quot;&gt;SVD&lt;/span&gt;). We will follow following tutorial loosely.&lt;br /&gt;
+&lt;a href=&quot;http://www.ling.ohio-state.edu/~kbaker/pubs/Singular_Value_Decomposition_Tutorial.pdf&quot;&gt;Tutorial on &lt;span class=&quot;caps&quot;&gt;SVD&lt;/span&gt; by Kirk Baker&lt;/a&gt; &lt;br /&gt;
+The meeting will be at TASC1 9408 from 1030 hours.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-11-18-Singular-Value-Decomposition-Tutorial</guid>
+	<link>/posts/2014-11-18-Singular-Value-Decomposition-Tutorial</link>
+	<pubDate>Tue, 18 Nov 2014 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+	<title>A Tutorial on Information Visualization</title>
+	<description>
+	&lt;p&gt;For the lab meeting this week, 12th of Nov, Fred will provide a short tutorial on Information Visualization: Principles, Promise, and Pragmatics based on Marti Hearst’s 2003 &lt;span class=&quot;caps&quot;&gt;CHI&lt;/span&gt; Tutorial.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-11-10-A-Tutorial-on-Information-Visualization</guid>
+	<link>/posts/2014-11-10-A-Tutorial-on-Information-Visualization</link>
+	<pubDate>Mon, 10 Nov 2014 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+	<title>Automatic Question Generation</title>
+	<description>
+	&lt;p&gt;In the lab meeting this week, 5th of Nov, Lydia will give a talk about Automatic Question Generation, integration of a Question Generation (QG) system with a learning environment and evaluation techniques for questions generated by a QG system.. The meeting will be at TASC1 9408 from 1030 hours.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-11-03-Automatic-Question-Generation</guid>
+	<link>/posts/2014-11-03-Automatic-Question-Generation</link>
+	<pubDate>Mon, 03 Nov 2014 00:00:00 -0800</pubDate>
+</item>
+
+<item>
+	<title>Brat Rapid Annotation Tool</title>
+	<description>
+	&lt;p&gt;Brat is a web-based tool for text annotation; which is going to be presented by Jasneet in the lab meeting this week (29th of Oct).&lt;br /&gt;
+&lt;a href=&quot;http://brat.nlplab.org/&quot;&gt;Brat&lt;/a&gt; is designed in particular for structured annotation, where the notes are not freeform text but have a fixed form that can be automatically processed and interpreted by a computer.&lt;br /&gt;
+The meeting will be at TASC1 9408 from 1030 hours.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-10-28-Brat-Rapid-Annotation-Tool</guid>
+	<link>/posts/2014-10-28-Brat-Rapid-Annotation-Tool</link>
+	<pubDate>Tue, 28 Oct 2014 00:00:00 -0700</pubDate>
+</item>
+
+<item>
+	<title>Expressive Hierarchical Rule Extraction for Left-to-Right Translation</title>
+	<description>
+	&lt;p&gt;In the lab meeting this week, 15th of Oct, Maryam will give a talk about &lt;a href=&quot;http://www.cs.sfu.ca/~anoop/papers/pdf/LRHieroXtraction.pdf&quot; &gt;Expressive Hierarchical Rule Extraction for Left-to-Right Translation&lt;/a&gt;. The meeting will be at TASC1 9408 from 1030 hours. Following is the abstract of the paper:&lt;/p&gt;
+&lt;p&gt;Left-to-right (LR) decoding Watanabe et al. (2006) is a promising decoding algorithm for hi- erarchical phrase-based translation (Hiero) that visits input spans in arbitrary order producing the output translation in left to right order. This leads to far fewer language model calls. But the constrained &lt;span class=&quot;caps&quot;&gt;SCFG&lt;/span&gt; grammar used in LR-Hiero (&lt;span class=&quot;caps&quot;&gt;GNF&lt;/span&gt;) with at most two non-terminals is unable to account for some complex phrasal reordering. Allowing more non-terminals in the rules results in a more expressive grammar. LR-decoding can be used to decode with SCFGs with more than two non-terminals, but the &lt;span class=&quot;caps&quot;&gt;CKY&lt;/span&gt; decoders used for Hiero systems cannot deal with such expressive grammars due to a blowup in computational complexity. In this paper we present a dynamic programming algorithm for &lt;span class=&quot;caps&quot;&gt;GNF&lt;/span&gt; rule extraction which efficiently ex- tracts sentence level &lt;span class=&quot;caps&quot;&gt;SCFG&lt;/span&gt; rule sets with an arbitrary number of non-terminals. We analyze the performance of the obtained grammar for statistical machine translation on three language pairs.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-10-14-Expressive-Hierarchical-Rule-Extraction-for-Left-to-Right-Translation</guid>
+	<link>/posts/2014-10-14-Expressive-Hierarchical-Rule-Extraction-for-Left-to-Right-Translation</link>
+	<pubDate>Tue, 14 Oct 2014 00:00:00 -0700</pubDate>
+</item>
+
+<item>
+	<title>Incremental Translation using Hierarchichal Phrase-based MT</title>
+	<description>
+	&lt;p&gt;In the lab meeting this week, 8th of Oct, Maryam and Ramtin will give a talk about their &lt;a href=&quot;http://www.cs.sfu.ca/~anoop/papers/pdf/lr-speech-slt2014.pdf&quot;&gt;recent paper&lt;/a&gt;. The meeting will be at TASC1 9408 from 1030 hours.&lt;/p&gt;
+&lt;p&gt;Abstract : Hierarchical phrase-based machine translation (Hiero) is a prominent approach for Statistical Machine Translation usually comparable to or better than conventional phrase-based systems. But Hiero typically uses the &lt;span class=&quot;caps&quot;&gt;CKY&lt;/span&gt; decoding algorithm which requires the entire input sentence before decoding begins, as it produces the translation in a bottom-up fashion. Left-to-right (LR) decoding is a promising decoding algorithm for Hiero that produces the output translation in left to right order. In this paper we focus on simultaneous translation using the Hiero translation framework. In simultaneous translation, translations are generated incrementally as source language speech input is processed. We propose a novel approach for incremental translation by integrating segmentation and decoding in LR-Hiero. We compare two incremental decoding algorithms for LR-Hiero and present translation quality scores (&lt;span class=&quot;caps&quot;&gt;BLEU&lt;/span&gt;) and the latency of generating translations for both decoders on audio lectures from the &lt;span class=&quot;caps&quot;&gt;TED&lt;/span&gt; collection.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-10-07-Incremental-Translation-using-Hierarchichal-Phrase-based-MT</guid>
+	<link>/posts/2014-10-07-Incremental-Translation-using-Hierarchichal-Phrase-based-MT</link>
+	<pubDate>Tue, 07 Oct 2014 00:00:00 -0700</pubDate>
+</item>
+
+<item>
+	<title>Evaluating Visual Text Analytics: Characterizing the Target Problem Space</title>
+	<description>
+	&lt;p&gt;In the lab meeting this week, 1st of Oct, Milan will give an overview of the evaluation of visual text analytics. The talk will focus on characterizing the target problem space which forms the framework for the evaluation process. The meeting will be at TASC1 9408 from 1030 hours.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-09-29-Evaluating-Visual-Text-Analytics:-Characterizing-the-Target-Problem-Space</guid>
+	<link>/posts/2014-09-29-Evaluating-Visual-Text-Analytics:-Characterizing-the-Target-Problem-Space</link>
+	<pubDate>Mon, 29 Sep 2014 00:00:00 -0700</pubDate>
+</item>
+
+<item>
+	<title>Paper/Idea Discussions for Upcoming Conferences</title>
+	<description>
+	&lt;p&gt;In the lab meeting this week, 24th of Sep, we will discuss paper ideas/plans that lab members have or what they are currently working on for the upcoming &lt;span class=&quot;caps&quot;&gt;TACL&lt;/span&gt; or *ACL conference deadlines. The meeting will be at TASC1 9408 from 1030 hours.&lt;/p&gt;
+	</description>
+	<guid>/posts/2014-09-22-Paper-Discussions-for-Upcoming-Conferences</guid>
+	<link>/posts/2014-09-22-Paper-Discussions-for-Upcoming-Conferences</link>
+	<pubDate>Mon, 22 Sep 2014 00:00:00 -0700</pubDate>
+</item>
+
+
+</channel>
+</rss>
