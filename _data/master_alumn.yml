@@ -1,0 +1,99 @@
+- name: Rohit Dholakia
+  url: http://rohitdholakia.com
+  location: Simba Technologies
+
+- name: David Lindberg 
+  position: Semantic Engineer 
+  location: Marketing.Ai
+
+- name: Zahra Behfarshad
+  information: "UBC student, worked as programmer on our Lensing Wikipedia project"
+
+- name: "Ravikiran Vadlapudi"
+  url: http://www.cs.sfu.ca/~rvadlapu/personal
+  location: "Nuance Communications, Montreal"
+
+- name: "Marzieh Razavi"
+  url: http://www.cs.sfu.ca/~mrazavi/personal
+  position: Ph.D. student
+  location: EPFL
+
+- name: "Max Whitney"
+  url: http://www.cs.sfu.ca/~mwhitney/personal
+  position: Learning Chinese in Taiwan
+
+- name: Julia Birke 
+  location: SAP Business Objects
+- name: "Ann Clifton"
+  url: http://www.cs.sfu.ca/~aca69/personal
+  information: back for Ph.D.
+
+- name: Nicolas Demers
+
+- name: Cesar Dragunsky
+
+- name: Akshay Gattani 
+  location: Zeugma Systems
+
+- name: Ajeet Grewal 
+  location: BC Ferries
+
+- name: Fahim Hasan
+
+- name: Mehdi Kashani 
+  location: Innovative Information
+
+- name: Young-chan Kim
+  position: Ph.D. student
+  location: University of Texas at Dallas
+
+- name: Tomohiko Kimura
+
+- name: Sandi Kodric 
+  position: Co-Founder
+  location: "<a href=http://vzajemci.com/>Vzajemci d.o.o.</a>"
+
+- name: "Fred Kroon"
+  url: http://www.cs.uwaterloo.ca/~fwkroon/ 
+  position: Ph.D. candidate 
+  location: University of Waterloo
+
+- name: Milan Mosny 
+  position: President
+  location: Response42.com
+
+- name: Porus Patell 
+  location: "Translation Division, SAP"
+
+- name: Hong Shen
+  location: Microsoft
+
+- name: Dong Song 
+  location: Accenture
+
+- name: Scott Stoness 
+  positon: Ph.D. candidate 
+  location: University of Rochester
+
+- name: Javier Thaine 
+  location: Microsoft
+
+- name: Carl Vogel
+  position: Senior Lecturer
+  location: "Trinity College, Dublin, Ireland"
+
+- name: Wendy Wang 
+  position: Post graduate in information management 
+  location: health care at Conestoga College
+
+- name: Bruce Wiebe 
+  position: Instructor in Linguistics 
+  location: Trinity Western University
+  url: http://www.twu.ca/academics/faculty/profiles/wiebe-bruce.html
+
+- name: Winona Wu 
+  url: http://www.sfu.ca/~winonaw/
+  location: SAP Business Objects
+
+- name: Yingjian Zhang 
+  location: "FinancialCAD Corp., BC"
