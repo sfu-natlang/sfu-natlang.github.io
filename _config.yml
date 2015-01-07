@@ -1,4 +1,4 @@
-baseurl: http://sfu-natlang.github.io
+baseurl: http://sfu-natlang.github.io/
 permalink: posts/:year-:month-:day-:title
 markdown: rdiscount
 #kramdown
