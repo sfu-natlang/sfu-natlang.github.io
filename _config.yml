@@ -1,4 +1,5 @@
 baseurl: http://sfu-natlang.github.io/
+exclude: ['README.md']
+timezone: US/Pacific
+markdown: kramdown
 permalink: posts/:year-:month-:day-:title
-markdown: rdiscount
-#kramdown
