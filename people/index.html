@@ -14,9 +14,8 @@ root: ../
 	     	 {% else %}
 	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;"  alt="...">
 	     	{% endif %}
-	      <div class="caption">
-	        <p>{{ member.name }}</p>
-    	        <p><a href="{{ member.url }}" class="btn btn-primary">Website</a></p>
+	      <div class="caption" align="center">
+	        <h3><a href="https://github.com/{{ member.github }}" class="btn btn-primary">{{ member.name }}</a></h3>
 	      </div>
 	    </div>
 	  </div>
@@ -33,10 +32,8 @@ root: ../
 	     	 {% else %}
 	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
 	     	{% endif %}
-	      <div class="caption">
-	        <p>{{ member.name }}</p>
-<!-- 	        <p>...</p>
- -->	        <p><a href="https://github.com/{{ member.github }}" class="btn btn-primary">Website</a></p>
+	      <div class="caption" align="center">
+	        <h3><a href="https://github.com/{{ member.github }}" class="btn btn-primary">{{ member.name }}</a></h3>
 	      </div>
 	    </div>
 	  </div>
@@ -53,10 +50,8 @@ root: ../
 	     	 {% else %}
 	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
 	     	{% endif %}
-	      <div class="caption">
-	        <p align="center">{{ member.name }}</p>
-<!-- 	        <p>...</p>
- -->	        <p><a href="https://github.com/{{ member.github }}" class="btn btn-primary">Website</a></p>
+	      <div class="caption" align="center" >
+	        <h3><a href="https://github.com/{{ member.github }}" class="btn btn-primary">{{ member.name }}</a></h3>
 	      </div>
 	    </div>
 	  </div>
@@ -73,10 +68,8 @@ root: ../
 	     	 {% else %}
 	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
 	     	{% endif %}
-	      <div class="caption">
-	        <h3>{{ member.name }}</h3>
-<!-- 	        <p>...</p>
- -->	        <p><a href="https://github.com/{{ member.github }}" class="btn btn-primary">Website</a></p>
+	      <div class="caption" align="center">
+	        <h3><a href="https://github.com/{{ member.github }}" class="btn btn-primary">{{ member.name }}</a></h3>
 	      </div>
 	    </div>
 	  </div>
@@ -88,9 +81,11 @@ root: ../
 {% for member in site.data.adjunct_members %}
 
 {% if member.group == 'others' %}
-	     	<li>{{member.name}}
-			{% if member.url %} <a href= {{member.url}} > (url) </a>
-			{% endif %}
+	     	<li>
+	     	{% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+		{% else %}
+		{{member.name}} 
+	  	{% endif %}
 	     	 </li> 
 {% endif %}
 
@@ -102,9 +97,11 @@ root: ../
 {% for member in site.data.adjunct_members %}
 
 {% if member.group == 'SFU-Linguistics' %}
-	     	<li>{{member.name}}
-			{% if member.url %} <a href= {{member.url}} > (url) </a>
-			{% endif %}
+	     	<li>
+	     	{% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+		{% else %}
+		{{member.name}} 
+	  	{% endif %}
 	     	 </li> 
 {% endif %}
 
@@ -112,6 +109,24 @@ root: ../
 </ul>
 
 <h1> Lab Alumnae and Alumni </h1>
+<h2>Postdoctoral Fellow</h2>
+<div class="row">
+	<ul>
+	{% for member in site.data.phd_alumn %}
+	  <li>
+	    {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+		{% else %}
+		{{member.name}} 
+	  	{% endif %}
+
+	  	{% if member.position %} -- {{member.position}}
+        {% elsif member.location %} -- now
+	  	{% endif %}
+		{% if member.location %} at {{member.location}} {% endif %}
+	  </li>
+{% endfor %}
+</ul>
+</div>
 <h2>PHD</h2>
 <div class="row">
 	<ul>
