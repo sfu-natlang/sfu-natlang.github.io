@@ -1,3 +1,9 @@
+# Sample- 
+# - name: (requried)
+#   url:  (optional)
+#   picture_url: (recommended)
+# please make sure you add a dash at first
+
 - name: Ann Clifton
   url: http://www.cs.sfu.ca/~aca69/personal
   picture_url: http://www2.cs.sfu.ca/~aca69/personal/annCS.jpg
@@ -6,9 +12,6 @@
   url: http://www.cs.sfu.ca/~amansour/personal
 
 - name : Lydia Odilinye
-
-- name: Baskaran Sankaran
-  url: http://www.cs.sfu.ca/~bsa33/personal
 
 - name: Golnar Sheikhshab
 
