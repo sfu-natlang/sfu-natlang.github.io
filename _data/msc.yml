@@ -1,3 +1,9 @@
+# Sample- 
+# - name: (requried)
+#   url:  (optional)
+#   picture_url: (recommended)
+# please make sure you add a dash at first
+
 - name: Te Bu
   url: http://www.sfu.ca/~tbu
 
