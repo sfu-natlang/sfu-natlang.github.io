@@ -15,8 +15,11 @@ root: ../
 	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;"  alt="...">
 	     	{% endif %}
 	      <div class="caption" align="center">
-	        <h3><a href="https://github.com/{{ member.github }}" class="btn btn-primary">{{ member.name }}</a></h3>
-	      </div>
+	      {% if member.url %}
+	        <h3><a href="{{ member.url }}" class="btn btn-primary">{{ member.name }}</a></h3>
+	        {% else %}
+	       	<h3>{{ member.name }}</h3>
+	        {% endif %}	      </div>
 	    </div>
 	  </div>
 {% endfor %}
@@ -33,8 +36,11 @@ root: ../
 	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
 	     	{% endif %}
 	      <div class="caption" align="center">
-	        <h3><a href="https://github.com/{{ member.github }}" class="btn btn-primary">{{ member.name }}</a></h3>
-	      </div>
+	      {% if member.url %}
+	        <h3><a href="{{ member.url }}" class="btn btn-primary">{{ member.name }}</a></h3>
+	        {% else %}
+	       	<h3>{{ member.name }}</h3>
+	        {% endif %}	      </div>
 	    </div>
 	  </div>
 {% endfor %}
@@ -51,7 +57,11 @@ root: ../
 	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
 	     	{% endif %}
 	      <div class="caption" align="center" >
-	        <h3><a href="https://github.com/{{ member.github }}" class="btn btn-primary">{{ member.name }}</a></h3>
+	      {% if member.url %}
+	        <h3><a href="{{ member.url }}" class="btn btn-primary">{{ member.name }}</a></h3>
+	        {% else %}
+	       	<h3>{{ member.name }}</h3>
+	        {% endif %}
 	      </div>
 	    </div>
 	  </div>
@@ -69,8 +79,11 @@ root: ../
 	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
 	     	{% endif %}
 	      <div class="caption" align="center">
-	        <h3><a href="https://github.com/{{ member.github }}" class="btn btn-primary">{{ member.name }}</a></h3>
-	      </div>
+	      {% if member.url %}
+	        <h3><a href="{{ member.url }}" class="btn btn-primary">{{ member.name }}</a></h3>
+	        {% else %}
+	       	<h3>{{ member.name }}</h3>
+	        {% endif %}	      </div>
 	    </div>
 	  </div>
 {% endfor %}
