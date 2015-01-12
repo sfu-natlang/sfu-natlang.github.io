@@ -1,3 +1,10 @@
+# Sample- 
+# - name: (requried)
+#   location: your school (required)
+#   picture_url: (recommended to use your image uploaded to github)
+#   information (optional, for example if you are here for more than one semester, you might write 'start_year - present'
+# please make sure you add a dash at first
+
 - name: Ian Stewart 
   location: (SFU)
 
