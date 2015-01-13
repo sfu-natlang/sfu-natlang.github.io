@@ -8,7 +8,7 @@ root: ../
 <div class="row">
 	{% for member in site.data.faculty %}
 	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail">
+	    <div class="thumbnail" style="min-height:310px;">
 	    	{% if member.picture_url %}
 	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
 	     	 {% else %}
@@ -30,7 +30,7 @@ root: ../
 <div class="row">
 	{% for member in site.data.phd %}
 	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail">
+	    <div class="thumbnail" style="min-height:310px;">
 	    	{% if member.picture_url %}
 	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
 	     	 {% else %}
@@ -51,7 +51,7 @@ root: ../
 <div class="row">
 	{% for member in site.data.msc %}
 	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail">
+	    <div class="thumbnail" style="min-height:310px;">
 	    	{% if member.picture_url %}
 	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
 	     	 {% else %}
@@ -73,7 +73,7 @@ root: ../
 <div class="row">
 	{% for member in site.data.undergraduate %}
 	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail">
+	    <div class="thumbnail" style="min-height:310px;">
 	    	{% if member.picture_url %}
 	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
 	     	 {% else %}
@@ -126,7 +126,7 @@ root: ../
 <h2>Postdoctoral Fellow</h2>
 <div class="row">
 	<ul>
-	{% for member in site.data.phd_alumn %}
+	{% for member in site.data.postdoc_alumn %}
 	  <li>
 	    {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
 		{% else %}
