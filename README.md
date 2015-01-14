@@ -1,5 +1,7 @@
-SFU Natural Language Lab website (sfu-natlang.github.io)
+SFU Natural Language Lab website 
 =====================
+
+http://sfu-natlang.github.io
 
 Source files for the SFU natural language lab website using Jekyll
 for content and Bootstrap for markup plus some custom Javascript.
@@ -33,20 +35,26 @@ that everything is working as it should.
 
 ## Installing Jekyll
 
-Tested with Ruby 2.1.1 and Jekyll 1.5.1
+Tested with Ruby 2.1.1 and Jekyll 1.5.1. Install the following
+gems:
 
 - unicode
 - nokogiri
 - RedCloth
+- jekyll
+
+The current version uses a Javascript reader for bibtex written by
+[ramtinms](https://github.com/ramtinms).
+
+The older version of this website used a Jekyll plugin written in
+Ruby to process bibtex. The Jekyll plugin uses the following gems.
+
 - rdiscount
 - bibtex-ruby
 - citeproc-ruby
 - csl-styles
-- jekyll
-
-All of the above can be installed from ruby gems. 
 
 On the SFU RCG machines these gems are already installed for the
 natlang ruby module, so there is no need for any setup besides
-loading the one module.
+loading the Ruby module (check `module avail`).
 
