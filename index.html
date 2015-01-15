@@ -3,175 +3,140 @@ layout: default
 pageclass: frontpage
 root: ./
 ---
+<div class="container">  <!-- container -->
+<div class="row"> <!-- mainpage_row -->
+  <div class="col-sm-2 hidden-sm hidden-xs"> <!-- side bar-->
+    <br>
+    <div align="center">
+      <img src="images/natlang.logo.png" width="100%">
+      <p>
+        Natural Language Laboratory <br>
+        <a href="http://www.cs.sfu.ca">School of Computing Science</a><br>
+        <a href="http://www.sfu.ca">Simon Fraser University </a><br>
+      </p>
+    </div>
+  </div><!-- end of side bar-->
 
-      <div class="row">
-      
-      <div class="col-sm-2 hidden-sm hidden-xs">
-          <br>
-         <div align="center">
-            <img src="images/natlang.logo.png" width="100%">
-                     <p>
-              Natural Language Laboratory <br>
-              <a href="http://www.cs.sfu.ca">School of Computing Science</a><br>
-                      <a href="http://www.sfu.ca">Simon Fraser University </a><br>
-                </p>
-                  
-        </div>
-  </div>
-  
-  <div class="col-md-10">
-  <br>
-    <div class="row" >
-    <div class="jumbotron visible-md visible-lg visible-sm" style="overflow: auto;">
-     <div class="container">
-      <div class=" jumbotext" align="center">
-      <div class="car" style="border-radius: 10px 10px 10px 10px;
+  <div class="col-md-10"> <!-- content -->
+    <br>
+    <div class="row" > <!-- row of header-->
+      <div class="jumbotron visible-md visible-lg visible-sm" style="overflow: auto;">
+        <div class=" jumbotext" align="center">
+          <div class="car" style="border-radius: 10px 10px 10px 10px;
           -moz-border-radius: 10px 10px 10px 10px;
           -webkit-border-radius: 10px 10px 10px 10px;
           border: 5px solid #FFFFFF;"> 
-
-          <img src="images/sfu1.jpg" width="100%" />
+            <img src="images/sfu1.jpg" width="100%" />
+          </div>
+          <p><b>W</b>elcome to natural language processing lab.</p>
+        </div>
       </div>
-      <p><b>W</b>elcome to natural language processing lab.</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div class="container">
-
-  <div class="row" >
-
-    <div class="col-md-6" >
-      <h1>News</h1>
+    </div> <!-- end of row of header-->
+    <div class="row" >  <!-- row of first page content-->
+      <div class="col-md-6" > <!-- news-->
+        <h1>News</h1>
+        <div class="more">
+          <ul class="navigate">
+            {% assign lastyear = nil %}
+            {% for post in site.posts limit:5 %}
+            {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+            {% if year != lastyear %}
+            <li><a href="{{ site.baseurl }}/posts/index.html#year{{ year }}">{{ year }}</a></li>
+            {% assign lastyear = year %}
+            {% endif %}
+            {% endfor %}
+            <li><a href="{{ site.baseurl }}/posts/index.html">All</a></li>
+          </ul>
+        </div><div class="panel panel-info" style="padding:  0.5em;" width:"200px">
+        {% for post in site.posts limit:5 %}
+        <h3><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a><br/> <small class="date">{{ post.date | date_to_string }}</small></h3>
+        {{ post.content }}
+        {% endfor %}
+        </div>
+      </div> <!--end of news-->
+    <div class="col-md-6"> <!-- publications-->
+      <h1>Recent Publications</h1>
       <div class="more">
         <ul class="navigate">
-          {% assign lastyear = nil %}
-          {% for post in site.posts limit:5 %}
-          {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-          {% if year != lastyear %}
-          <li><a href="{{ site.baseurl }}/posts/index.html#year{{ year }}">{{ year }}</a></li>
-          {% assign lastyear = year %}
-          {% endif %}
-          {% endfor %}
-          <li><a href="{{ site.baseurl }}/posts/index.html">All</a></li>
+          <li><a href="{{ site.baseurl }}/publications/index.html">See more</a></li>
         </ul>
-      </div><div class="panel panel-info" style="padding:  0.5em;" width:"200px">
-      {% for post in site.posts limit:5 %}
-      <h3><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a><br/> <small class="date">{{ post.date | date_to_string }}</small></h3>
-      {{ post.content }}
-      {% endfor %}
-    </div>
-  </div>
-  <div class="col-md-6">
-   <h1>Recent Publications</h1>
-    <div class="more">
-      <ul class="navigate">
-        <li><a href="{{ site.baseurl }}/publications/index.html">See more</a></li>
-      </ul>
-    </div>
-
-
-    <textarea id="bibtex_input" style="display:none;"> 
-    </textarea>
-
-
-    <div class="bibtex_template"  style="display:none; padding:  0.8em;" >
-
-      <li style="padding:  0.2em;">
-        <span>
-          <span class="if title" style="font-weight: bold;">
-            <span class="title"></span>     
-            <br>
-          </span>
-          <span class="author"></span>.<br>
-          <span class="if booktitle" style="font-style: italic;">
-            <span class="booktitle"></span>,
-            <span class="if address" style="font-style: normal;">
-              <span class="address"></span>
-            </span>     
-          </span>
-          <span class="if journal" style="font-style: italic;">
-            <span class="journal"></span>
-          </span>
-          <span style="if publisher">
-            <span class="publisher"></span>
-          </span>
-          <span style="if school">
-            <span class="school"></span>
-          </span>
-          <span class="if volume">
-            <span class="volume"></span>
-            <span class="if number">
-              (<span class="number"></span>)
+      </div>
+      <textarea id="bibtex_input" style="display:none;"> <!--used in the bib reader-->
+      </textarea>
+      <div class="bibtex_template"  style="display:none; padding:  0.8em;" > <!--bib tex template-->
+        <li style="padding:  0.2em;">
+          <span>
+            <span class="if title" style="font-weight: bold;">
+              <span class="title"></span>     
+              <br>
             </span>
-            <span class="if pages">
-              :<span class="pages"></span>
+            <span class="author"></span>.<br>
+            <span class="if booktitle" style="font-style: italic;">
+              <span class="booktitle"></span>,
+              <span class="if address" style="font-style: normal;">
+                <span class="address"></span>
+              </span>     
             </span>
+            <span class="if journal" style="font-style: italic;">
+              <span class="journal"></span>
+            </span>
+            <span style="if publisher">
+              <span class="publisher"></span>
+            </span>
+            <span style="if school">
+              <span class="school"></span>
+            </span>
+            <span class="if volume">
+              <span class="volume"></span>
+              <span class="if number">
+                (<span class="number"></span>)
+              </span>
+              <span class="if pages">
+                :<span class="pages"></span>
+              </span>
+            </span>
+            <span class="if edition">
+              <span class="edition"></span> ed.,
+            </span>
+            <span class="year"></span>
           </span>
-          <span class="if edition">
-            <span class="edition"></span> ed.,
-          </span>
-          <span class="year"></span>
+          <br />
+        <span class="if url">
+          <button type="button" class="btn btn-sm btn-info" aria-label="Left Align">
+            <a class="url" style="color: #FFFFFF;"> URL </a>
+          </button>
         </span>
-        <br />
-<!--   <span class="label label-primary "></span>
--->  
-          <span class="if url">
-            <button type="button" class="btn btn-sm btn-info" aria-label="Left Align">
-              <a class="url" style="color: #FFFFFF;"> URL </a>
-            </button>
-          </span>
-          <span class="if pdf">
-            <button type="button" class="btn btn-sm btn-info" aria-label="Left Align">
-              <a class="pdf" style="color: #FFFFFF;"> PDF </a>
-            </button>
-          </span>
+        <span class="if pdf">
+          <button type="button" class="btn btn-sm btn-info" aria-label="Left Align">
+            <a class="pdf" style="color: #FFFFFF;"> PDF </a>
+          </button>
+        </span>
 
-          <span class="if bibtex">
-           <button type="button" class="btn bibtex_but btn-sm btn-success" data-toggle="collapse" data-target="#demo">
+        <span class="if bibtex">
+          <button type="button" class="btn bibtex_but btn-sm btn-success" data-toggle="collapse" data-target="#demo">
             bibtex
           </button>
-          </span>
-
-          <span class="if abstract">
-            <button type="button" class="btn abstract_but btn-sm btn-info" data-toggle="collapse" data-target="#demo">abstract</button>
-          </span>
-          <br>
-
+        </span>
+        <span class="if abstract">
+          <button type="button" class="btn abstract_but btn-sm btn-info" data-toggle="collapse" data-target="#demo">abstract</button>
+        </span>
+        <br>
         <span>
-  <div class="abstractdata alert alert-info collapse closed" role="alert"><b>Abstract : </b><span class="abstract"></span></div>
-  <div class="bibtexdata alert alert-success collapse closed" role="alert"><b>Bibtex : </b><span class="bibtex"></span></div>
-  </span>
+            <div class="abstractdata alert alert-info collapse closed" role="alert"><b>Abstract : </b><span class="abstract"></span></div>
+            <div class="bibtexdata alert alert-success collapse closed" role="alert"><b>Bibtex : </b><span class="bibtex"></span></div>
+        </span>
+        <br>
 
-<br>
+      </div> <!--end of bib tex template-->
 
-</div>
+      <div class="panel panel-info"> <!--bib tex view part-->
+        <div id="bibtex_display"></div>
+      </div>
 
-<!-- <ol reversed>
--->  <div class="panel panel-info">
-<!--   <div class="panel-heading">
-    <h3 class="panel-title">
+    </div> <!-- end of publications-->
 
-<button class="btn allyears btn-primary" type="button" value='all'>
-  All
-</button> 
-
-    </h3>
-  </div> -->
-  <!--  <div class="panel-body" > -->
-
-  <div id="bibtex_display"></div>
-</div>
-
-</div>
-
-  </div><!--/row-->
-</div>
-      
-</div>
-
-
-<!-- </div> -->
-
-</div>
+  </div><!-- end of the row of first page content-->
+</div><!--end of  content -->
+</div><!--end of mainpage_row -->
+</div><!--end of container -->
 
