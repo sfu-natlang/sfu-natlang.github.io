@@ -17,27 +17,35 @@ root: ./
     </div>
     <br>
     <div align="center">
+    <h3>Fast Access</h3>
     <nav>
-        <ul>
+        <ul style="list-style-type: none;">
           <li class="next"><a href="#faculty">Faculty <span aria-hidden="true">&rarr;</span></a></li>
+          {% if site.data.postdoc %}
+          <li class="next"><a  href="#postdoc">Postdocs <span aria-hidden="true">&rarr;</span></a></li>
+          {% endif %}
+          <li class="next"><a  href="#phd">PHD Students <span aria-hidden="true">&rarr;</span></a></li>
+          <li class="next"><a  href="#msc">Master Students <span aria-hidden="true">&rarr;</span></a></li>
+          <li class="next"><a  href="#undergraduate">Undergraduate Students <span aria-hidden="true">&rarr;</span></a></li>
+          <li class="next"><a href="#adjunct">Adjunct Members <span aria-hidden="true">&rarr;</span></a></li>
+          <li class="next"><a href="#alumni">Lab Alumnae and Alumni<span aria-hidden="true">&rarr;</span></a></li>
         </ul>
     </nav>
-        Fast Access
-        <p> Members
-          <a class="btn btn-sm" href="#faculty">Faculty</a>
-          {% if site.data.postdoc %}
-          <a class="btn btn-sm" href="#postdoc">Postdocs</a>
-          {% endif %}
-          <a class="btn btn-sm" href="#phd">PHD Students</a>
-          <a class="btn btn-sm" href="#msc">Master Students</a>
-          <a class="btn btn-sm " href="#undergraduate">Undergraduate Students</a>
-        </p>
-        <p>
-          <a class="btn btn-sm" href="#adjunct">Adjunct Members </a>
-        </p>
-        <p>
-          <a class="btn btn-sm" href="#alumni">Lab Alumnae and Alumni</a>
-        </p>
+        <!--<p> Members-->
+        <!--  <a class="btn btn-sm" href="#faculty">Faculty</a>-->
+        <!--  {% if site.data.postdoc %}-->
+        <!--  <a class="btn btn-sm" href="#postdoc">Postdocs</a>-->
+        <!--  {% endif %}-->
+        <!--  <a class="btn btn-sm" href="#phd">PHD Students</a>-->
+        <!--  <a class="btn btn-sm" href="#msc">Master Students</a>-->
+        <!--  <a class="btn btn-sm " href="#undergraduate">Undergraduate Students</a>-->
+        <!--</p>-->
+        <!--<p>-->
+        <!--  <a class="btn btn-sm" href="#adjunct">Adjunct Members </a>-->
+        <!--</p>-->
+        <!--<p>-->
+        <!--  <a class="btn btn-sm" href="#alumni">Lab Alumnae and Alumni</a>-->
+        <!--</p>-->
     </div>
   </div><!-- end of side bar-->
 
