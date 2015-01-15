@@ -2,4 +2,5 @@
 # - name: (requried)
 #   url:  (optional)
 #   picture_url: (recommended)
+#   start: (required, eg. Jan 2014) 
 # please make sure you add a dash at first
