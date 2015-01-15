@@ -15,18 +15,25 @@ root: ./
         <a href="http://www.sfu.ca">Simon Fraser University </a><br>
       </p>
     </div>
+    <br>
     <div align="center">
-        <p> <h3>Members</h3>
-          <a class="btn btn-small" href="#faculty">Faculty</a>
+    <nav>
+        <ul>
+          <li class="next"><a href="#faculty">Faculty <span aria-hidden="true">&rarr;</span></a></li>
+        </ul>
+    </nav>
+        Fast Access
+        <p> Members
+          <a class="btn btn-sm" href="#faculty">Faculty</a>
           {% if site.data.postdoc %}
-          <a class="btn btn-small" href="#postdoc">Postdocs</a>
+          <a class="btn btn-sm" href="#postdoc">Postdocs</a>
           {% endif %}
-          <a class="btn btn-small" href="#phd">PHD Students</a>
-          <a class="btn btn-small" href="#msc">Master Students</a>
-          <a class="btn btn-small" href="#undergraduate">Undergraduate Students</a>
+          <a class="btn btn-sm" href="#phd">PHD Students</a>
+          <a class="btn btn-sm" href="#msc">Master Students</a>
+          <a class="btn btn-sm " href="#undergraduate">Undergraduate Students</a>
         </p>
         <p>
-          <a class="btn btn-small" href="#adjunct">Adjunct Members </a>
+          <a class="btn btn-sm" href="#adjunct">Adjunct Members </a>
         </p>
         <p>
           <a class="btn btn-sm" href="#alumni">Lab Alumnae and Alumni</a>
