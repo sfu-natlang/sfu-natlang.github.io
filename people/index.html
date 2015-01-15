@@ -25,7 +25,28 @@ root: ../
 	  </div>
 {% endfor %}
 </div>
-
+{% if site.data.postdoc %}
+<h2>Postdoctoral Fellow</h2>
+<div class="row">
+	{% for member in site.data.postdoc %}
+	  <div class="col-sm-4 col-md-3">
+	    <div class="thumbnail" style="min-height:320px;">
+	    	{% if member.picture_url %}
+	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
+	     	 {% else %}
+	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
+	     	{% endif %}
+	      <div class="caption" align="center">
+	      {% if member.url %}
+	        <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
+	        {% else %}
+	       	<h3>{{ member.name }}</h3>
+	        {% endif %}	      </div>
+	    </div>
+	  </div>
+{% endfor %}
+</div>
+{% endif %}
 <h2>Ph.D. Students</h2>
 <div class="row">
 	{% for member in site.data.phd %}
