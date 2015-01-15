@@ -13,7 +13,9 @@ root: ./
           -webkit-border-radius: 10px 10px 10px 10px;
           border: 5px solid #FFFFFF;"> 
 -->
+        <div class="container-fluid">
             <img src="images/sfu1.jpg" width="75%"/>
+        </div>
 <!--
           </div>
         </div>
@@ -35,7 +37,9 @@ root: ./
             {% endfor %}
             <li><a href="{{ site.baseurl }}/posts/index.html">All</a></li>
           </ul>
-        </div><div class="panel panel-info" style="padding:  0.5em;" width:"200px">
+        </div>
+        <div class="container-fluid">
+        <!-- <div class="panel panel-info" style="padding:  0.5em;" width:"200px"> -->
         {% for post in site.posts limit:5 %}
         <h3><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a><br/> <small class="date">{{ post.date | date_to_string }}</small></h3>
         {{ post.content }}
@@ -117,7 +121,8 @@ root: ./
 
       </div> <!--end of bib tex template-->
 
-      <div class="panel panel-info"> <!--bib tex view part-->
+      <div class="container-fluid">
+      <!-- <div class="panel panel-info"> --> <!--bib tex view part-->
         <div id="bibtex_display"></div>
       </div>
 
