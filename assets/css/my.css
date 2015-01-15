@@ -1,0 +1,14 @@
+#linker {
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.page-header ul {
+    padding: 0;
+    list-style-type: none;
+}
+.jumbotron {
+  height: 255px;
+  margin: 0 0;
+  padding: 5px 5px;
+}
+
