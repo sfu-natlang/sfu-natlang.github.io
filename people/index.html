@@ -1,127 +1,160 @@
 ---
 layout: default
-title: People
-root: ../
+pageclass: frontpage
+root: ./
 ---
+<div class="container">  <!-- container -->
+<div class="row"> <!-- mainpage_row -->
+  <div class="col-sm-2 hidden-sm hidden-xs"> <!-- side bar-->
+    <br>
+    <div align="center">
+      <img src="images/natlang.logo.png" width="100%">
+      <p>
+        Natural Language Laboratory <br>
+        <a href="http://www.cs.sfu.ca">School of Computing Science</a><br>
+        <a href="http://www.sfu.ca">Simon Fraser University </a><br>
+      </p>
+    </div>
+    <div align="center">
+        <p> Members
+          <a class="btn btn-large btn-block btn-danger" href="#faculty">Faculty</a>
+          {% if site.data.postdoc %}
+          <a class="btn btn-large btn-block btn-danger" href="#postdoc">Postdocs</a>
+          {% endif %}
+          <a class="btn btn-large btn-block btn-danger" href="#phd">PHD Students</a>
+          <a class="btn btn-large btn-block btn-danger" href="#msc">Master Students</a>
+          <a class="btn btn-large btn-block btn-danger" href="#undergraduate">Undergraduate Students</a>
+        </p>
+        <p>
+          <a class="btn btn-large btn-block btn-danger" href="#adjunct">Adjunct Members </a>
+        </p>
+        <p>
+          <a class="btn btn-large btn-block btn-danger" href="#alumni">Lab Alumnae and Alumni</a>
+        </p>
+    </div>
+  </div><!-- end of side bar-->
+
+  <div class="col-md-10"> <!-- content -->
+    <br>
 <h1> Members </h1>
 <h2> Faculty </h2>
-<div class="row">
-	{% for member in site.data.faculty %}
-	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail" style="min-height:310px;">
-	    	{% if member.picture_url %}
-	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
-	     	 {% else %}
-	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;"  alt="...">
-	     	{% endif %}
-	      <div class="caption" align="center">
-	      {% if member.url %}
-	        <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
-	        <!-- class="btn btn-primary"-->
-	        {% else %}
-	       	<h3>{{ member.name }}</h3>
-	        {% endif %}	      </div>
-	    </div>
-	  </div>
+<div class="row" id="faculty">
+  {% for member in site.data.faculty %}
+    <div class="col-sm-4 col-md-3">
+      <div class="thumbnail" style="min-height:310px;">
+        {% if member.picture_url %}
+         <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
+         {% else %}
+         <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;"  alt="...">
+        {% endif %}
+        <div class="caption" align="center">
+        {% if member.url %}
+          <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
+          <!-- class="btn btn-primary"-->
+          {% else %}
+          <h3>{{ member.name }}</h3>
+          {% endif %}       </div>
+      </div>
+    </div>
 {% endfor %}
 </div>
 {% if site.data.postdoc %}
 <h2>Postdoctoral Fellow</h2>
-<div class="row">
-	{% for member in site.data.postdoc %}
-	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail" style="min-height:320px;">
-	    	{% if member.picture_url %}
-	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
-	     	 {% else %}
-	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
-	     	{% endif %}
-	      <div class="caption" align="center">
-	      {% if member.url %}
-	        <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
-	        {% else %}
-	       	<h3>{{ member.name }}</h3>
-	        {% endif %}	      </div>
-	    </div>
-	  </div>
+<div class="row" id="postdoc">
+  {% for member in site.data.postdoc %}
+    <div class="col-sm-4 col-md-3">
+      <div class="thumbnail" style="min-height:320px;">
+        {% if member.picture_url %}
+         <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
+         {% else %}
+         <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
+        {% endif %}
+        <div class="caption" align="center">
+        {% if member.url %}
+          <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
+          {% else %}
+          <h3>{{ member.name }}</h3>
+          {% endif %}       </div>
+      </div>
+    </div>
 {% endfor %}
 </div>
 {% endif %}
 <h2>Ph.D. Students</h2>
-<div class="row">
-	{% for member in site.data.phd %}
-	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail" style="min-height:320px;">
-	    	{% if member.picture_url %}
-	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
-	     	 {% else %}
-	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
-	     	{% endif %}
-	      <div class="caption" align="center">
-	      {% if member.url %}
-	        <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
-	        {% else %}
-	       	<h3>{{ member.name }}</h3>
-	        {% endif %}	      </div>
-	    </div>
-	  </div>
+<div class="row" id="phd">
+  {% for member in site.data.phd %}
+    <div class="col-sm-4 col-md-3">
+      <div class="thumbnail" style="min-height:320px;">
+        {% if member.picture_url %}
+         <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
+         {% else %}
+         <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
+        {% endif %}
+        <div class="caption" align="center">
+        {% if member.url %}
+          <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
+          {% else %}
+          <h3>{{ member.name }}</h3>
+          {% endif %}       </div>
+      </div>
+    </div>
 {% endfor %}
 </div>
 
 <h2>Masters Students</h2>
-<div class="row">
-	{% for member in site.data.msc %}
-	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail" style="min-height:320px;">
-	    	{% if member.picture_url %}
-	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
-	     	 {% else %}
-	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
-	     	{% endif %}
-	      <div class="caption" align="center" >
-	      {% if member.url %}
-	        <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
-	        {% else %}
-	       	<h3>{{ member.name }}</h3>
-	        {% endif %}
-	      </div>
-	    </div>
-	  </div>
+<div class="row" id="msc">
+  {% for member in site.data.msc %}
+    <div class="col-sm-4 col-md-3">
+      <div class="thumbnail" style="min-height:320px;">
+        {% if member.picture_url %}
+         <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
+         {% else %}
+         <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
+        {% endif %}
+        <div class="caption" align="center" >
+        {% if member.url %}
+          <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
+          {% else %}
+          <h3>{{ member.name }}</h3>
+          {% endif %}
+        </div>
+      </div>
+    </div>
 {% endfor %}
 </div>
 
 <h2>Undergraduate Students</h2>
-<div class="row">
-	{% for member in site.data.undergraduate %}
-	  <div class="col-sm-4 col-md-3">
-	    <div class="thumbnail" style="min-height:310px;">
-	    	{% if member.picture_url %}
-	     	 <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
-	     	 {% else %}
-	     	 <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
-	     	{% endif %}
-	      <div class="caption" align="center">
-	      {% if member.url %}
-	        <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
-	        {% else %}
-	       	<h3>{{ member.name }}</h3>
-	        {% endif %}	      </div>
-	    </div>
-	  </div>
+<div class="row" id="undergraduate">
+  {% for member in site.data.undergraduate %}
+    <div class="col-sm-4 col-md-3">
+      <div class="thumbnail" style="min-height:310px;">
+        {% if member.picture_url %}
+         <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
+         {% else %}
+         <img src="{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
+        {% endif %}
+        <div class="caption" align="center">
+        {% if member.url %}
+          <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
+          {% else %}
+          <h3>{{ member.name }}</h3>
+          {% endif %}       </div>
+      </div>
+    </div>
 {% endfor %}
 </div>
 
-<h1> Adjunct Members </h1>
+<h1 id='adjunct'> Adjunct Members </h1>
 <ul>
 {% for member in site.data.adjunct_members %}
 
 {% if member.group == 'others' %}
-	     	<li>
-	     	{% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
-		{% else %}
-		{{member.name}} 
-	  	{% endif %}
-	     	 </li> 
+        <li>
+        {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+    {% else %}
+    {{member.name}} 
+      {% endif %}
+         </li> 
 {% endif %}
 
 {% endfor %}
@@ -132,89 +165,90 @@ root: ../
 {% for member in site.data.adjunct_members %}
 
 {% if member.group == 'SFU-Linguistics' %}
-	     	<li>
-	     	{% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
-		{% else %}
-		{{member.name}} 
-	  	{% endif %}
-	     	 </li> 
+        <li>
+        {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+    {% else %}
+    {{member.name}} 
+      {% endif %}
+         </li> 
 {% endif %}
 
 {% endfor %}
 </ul>
 
-<h1> Lab Alumnae and Alumni </h1>
+<h1 id='alumni'> Lab Alumnae and Alumni </h1>
 <h2>Postdoctoral Fellow</h2>
 <div class="row">
-	<ul>
-	{% for member in site.data.postdoc_alumn %}
-	  <li>
-	    {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
-		{% else %}
-		{{member.name}} 
-	  	{% endif %}
+  <ul>
+  {% for member in site.data.postdoc_alumn %}
+    <li>
+      {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+    {% else %}
+    {{member.name}} 
+      {% endif %}
 
-	  	{% if member.position %} -- {{member.position}}
+      {% if member.position %} -- {{member.position}}
         {% elsif member.location %} -- now
-	  	{% endif %}
-		{% if member.location %} at {{member.location}} {% endif %}
-	  </li>
+      {% endif %}
+    {% if member.location %} at {{member.location}} {% endif %}
+    </li>
 {% endfor %}
 </ul>
 </div>
 <h2>PHD</h2>
 <div class="row">
-	<ul>
-	{% for member in site.data.phd_alumn %}
-	  <li>
-	    {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
-		{% else %}
-		{{member.name}} 
-	  	{% endif %}
+  <ul>
+  {% for member in site.data.phd_alumn %}
+    <li>
+      {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+    {% else %}
+    {{member.name}} 
+      {% endif %}
 
-	  	{% if member.position %} -- {{member.position}}
+      {% if member.position %} -- {{member.position}}
         {% elsif member.location %} -- now
-	  	{% endif %}
-		{% if member.location %} at {{member.location}} {% endif %}
-	  </li>
+      {% endif %}
+    {% if member.location %} at {{member.location}} {% endif %}
+    </li>
 {% endfor %}
 </ul>
 </div>
 
 <h2>M.Sc.</h2>
 <div class="row">
-	<ul>
-	{% for member in site.data.master_alumn %}
-	  <li>
-	  	{% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
-		{% else %}
-		{{member.name}} 
-	  	{% endif %}
+  <ul>
+  {% for member in site.data.master_alumn %}
+    <li>
+      {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+    {% else %}
+    {{member.name}} 
+      {% endif %}
 
-	  	{% if member.position %} -- {{member.position}}
-	  	{% elsif member.location %} -- now
-	  	{% endif %}
-		{% if member.location %} at {{member.location}} {% endif %}
-	  </li>
+      {% if member.position %} -- {{member.position}}
+      {% elsif member.location %} -- now
+      {% endif %}
+    {% if member.location %} at {{member.location}} {% endif %}
+    </li>
 {% endfor %}
 </ul>
 </div>
 <h2>Undergraduate Students</h2>
 <div class="row">
-	<ul>
-	{% for member in site.data.undergraduate-alumn%}
-	  <li> 
-		{% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
-		{% else %}
-		{{member.name}} 
-	  	{% endif %}
-	  	{% if member.university %} ({{member.university}}) {% endif %}
-		{% if member.information %} -- {{member.information}} {% endif %}
+  <ul>
+  {% for member in site.data.undergraduate-alumn%}
+    <li> 
+    {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
+    {% else %}
+    {{member.name}} 
+      {% endif %}
+      {% if member.university %} ({{member.university}}) {% endif %}
+    {% if member.information %} -- {{member.information}} {% endif %}
 
-	  </li>
+    </li>
 {% endfor %}
 </ul>
 </div>
 
-
-
+  </div><!--end of  content -->
+</div><!--end of mainpage_row -->
+</div><!--end of container -->
