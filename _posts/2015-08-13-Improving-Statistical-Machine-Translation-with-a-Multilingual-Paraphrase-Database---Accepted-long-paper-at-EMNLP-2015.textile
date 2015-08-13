@@ -3,7 +3,7 @@ layout: post
 title: "Improving Statistical Machine Translation with a Multilingual Paraphrase Database - Accepted long paper at EMNLP 2015"
 root: ../../
 ---
-The list of accepted papers in EMNLP 2015 is now available at <a href="www.emnlp2015.org/accepted-papers.html">accepted papers </a>
+The list of accepted papers in EMNLP 2015 is now available at <a href="http://www.emnlp2015.org/accepted-papers.html">accepted papers </a>
 
 Natlang members Ramtin and Maryam have the following long paper accepted at EMNLP 2015: 
 
