@@ -1,8 +1,13 @@
 - name: Ramtin Mehdizadeh
-  url: http://www.sfu.ca/~rmehdiza
+  url: "http://www.sfu.ca/~rmehdiza"
+  location: "Machine learning engineer at Axiom Zen, Inc."
   
+- name: Bradley Ellert
+  url: http://ca.linkedin.com/in/bellert/
+  picture_url: https://avatars1.githubusercontent.com/u/1570179
+
 - name: Rohit Dholakia
-  url: http://rohitdholakia.com
+  url: "http://rohitdholakia.com"
   location: Simba Technologies
 
 - name: David Lindberg 
@@ -10,7 +15,7 @@
   location: Marketing.Ai
 
 - name: Zahra Behfarshad
-  information: "UBC student, worked as programmer on our Lensing Wikipedia project"
+  information: "UBC MSc student, worked as programmer on the Lensing Wikipedia project"
 
 - name: "Ravikiran Vadlapudi"
   url: http://www.cs.sfu.ca/~rvadlapu/personal
