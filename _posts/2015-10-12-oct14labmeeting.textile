@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "oct14labmeeting"
+title: "Source Language Word Embedding in Neural Machine Translation"
 root: ../../
 ---
 On Wednesday October 14, Maryam will give a talk on “Source Language Word Embedding in Neural Machine Translation” in the lab meeting. Here is the abstract of the presentation:
