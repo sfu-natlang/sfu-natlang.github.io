@@ -1,0 +1,6 @@
+---
+layout: post
+title: "PHD Thesis Seminar: Discrminative Learning Over Latent Structures"
+root: ../../
+---
+There is a PHD Thesis Seminar about Discrminative Learning Over Latent Structures given by Ann Clifton at 1:30 p.m Thursday October 22nd, 2015 in TASC1 9204 East. 
