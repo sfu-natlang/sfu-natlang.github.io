@@ -1,0 +1,6 @@
+---
+layout: post
+title: "Discriminative Learning over Latent Structures for Natural Language Processing"
+root: ../../
+---
+On Wednesday October 21, Ann Clifton will give her Phd seminar practice talk during the lab meeting. The title of her thesis is "Discriminative Learning over Latent Structures for Natural Language Processing".

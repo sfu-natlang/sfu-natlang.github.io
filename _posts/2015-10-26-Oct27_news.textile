@@ -1,0 +1,9 @@
+---
+layout: post
+title: "PHD Defence By Ann Clifton"
+root: ../../
+---
+On Tuesday, October 27th, 1:00 p.m. at TASC1 9204 WEST, Ann Clifton will defend her PHD thesis on the topic of "DISCRIMINATIVE LEARNING OVER LATENT STRUCTURES FOR NATURAL LANGUAGE PROCESSING".
+Here is the abstract of her thesis:
+Natural language is rich with layers of implicit structure, and previous research has shown that we can take advantage of this structure to make more accurate models. Most attempts to utilize forms of implicit natural language structure for natural language processing tasks have assumed a pre-defined structural analysis before training the task-specific model. However, rather than fixing the latent structure, we may wish to discover the latent structure that is most useful via feedback from an extrinsic task. The focus of this work is on jointly learning the best latent analysis along with the model for the NLP task we are interested in.
+In this work, we present a generalized learning framework for discriminative training over jointly learned latent structures, and apply this to several NLP tasks. We develop a high-accuracy discriminative language model over shallow parse structures; in addition, we set forth a framework for latent structure learning for machine translation, in which the latent segmentation and alignment of the parallel training data inform the translation model.
