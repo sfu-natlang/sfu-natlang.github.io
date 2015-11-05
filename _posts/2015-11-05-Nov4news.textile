@@ -3,7 +3,7 @@ layout: post
 title: "HMM-based Word Alignment in Statistical Machine Translation"
 root: ../../
 ---
-On November 5th, Anahita Bigavand gave an tutorial on HMM-based Word Alignment in Statistical Machine Translation during our lab meeting.
+On November 4th, Anahita Bigavand gave an tutorial on HMM-based Word Alignment in Statistical Machine Translation during our lab meeting.
 Here is the abstract:
 Word Alignment is a crucial component of a statistical machine translation (SMT) system. The classical
 approaches to word alignment are based on IBM models and the HMM model. The performance of an improved HMM word alignment model is comparable to that of IBM model 4 which is currently considered as the most widely used model for word alignment. Due to this and also practical benefits of the HMM model, we focus on this model. We first present the HMM-based word alignment model for SMT, and then we present some of the
