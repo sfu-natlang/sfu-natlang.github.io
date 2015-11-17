@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Te Bu MSC Thesis Defence"
+title: "Te Bu M.Sc. Thesis Defence"
 root: ../../
 ---
 On Tuesday, November 17th, 3:30 p.m. at TASC1 9204 WEST, Te Bu will defend his M.SC thesis on the topic of "Joint Prediction of Word Alignment and Alignment Types for Statistical Machine Translation".
