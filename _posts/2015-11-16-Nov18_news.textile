@@ -1,9 +1,0 @@
----
-layout: post
-title: "Graph-Based Semi-Supervised Learning"
-root: ../../
----
-On November 18th, Golnar will give a practise talk about Graph-Based Semi-Supervised Learning during the lab meeting.
-Here is the abstract:
-Graph-based semi-supervised learning (SSL) is based on the assumption that similar data points should have similar labels. A graph is constructed whose vertices represent data points and whose edge-weights represent how strongly we believe the adjacent vertices(data points) should get the same label. The graph will connect labeled and unlabeled data points and each vertex is associated with a label-distribution that represents the current belief about its label. Having this graph that encodes the similarities between data points, the goal is to find label distributions for all vertices so that 1) for any labeled vertex v, the associated label-distribution is as close as possible to its reference distribution obtained from the labeled data based on the number of times each data (point, label) pair appeared together; 2) adjacent vertices in the graph have similar label-distributions; 3) the label-distributions of all vertices comply with the prior knowledge if such knowledge exists.
-There are two different settings in graph-based SSL: transductive and inductive. In transductive settings, the graph is constructed over train and test sets and the most probable label for any test data-point is chosen after propagation. For new test data, the graph should be re-constructed and labels should be propagated again. In inductive settings on the other hand, a model such as a conditional random field is trained and can assign labels to new data-points so there won’t be any need for constructing a graph or propagating labels through one. Graph-based SSL has been applied to many NLP applications. In these applications data-points are usually n-grams and edge weights are computed based on context features.

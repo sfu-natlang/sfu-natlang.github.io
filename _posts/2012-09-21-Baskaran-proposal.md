@@ -1,0 +1,11 @@
+---
+layout: post
+title: Baskaran Sankaran thesis Proposal
+root: ../../
+---
+
+Baskaran will present his thesis proposal on 21st September, 2012 at 11:00 AM.
+
+Sankaran, B. Improvements in Hierarchical Phrase-Based Machine Translation Models.
+
+The hierarchical phrase-based translation (Hiero) is a model for statistical machine translation (SMT) which captures discontiguous phrase pairs and re-ordering between source and target languages using a synchronous context-free grammar (SCFG). Hiero models are more expressive than phrase-based models and yet are much simpler than full syntax-based models. We propose improvements to the Hiero framework in learning Hiero grammars and also in training feature weights. We have been working on Bayesian models for extracting compact but accurate Hiero grammars. The model extracts minimal source-target translation units resulting in substantial reduction in model size without impacting the translation performance. We further extend our model in a distributed framework employing Variational inference to do exact inference. This allows us to scale inference to very large data sets commonly used in SMT. This is in contrast to the existing work that typically use approximate inference in the distributed framework. In the second part of the thesis we propose a Bayesian model for learning phrasal alignments. We also extend this approach to simultaneously extract a Hiero grammar along with phrasal alignments, in a joint framework. We also propose a new approach for improving feature weight training by jointly optimizing towards multiple machine translation evaluation metrics and our results in this direction so far are promising. Our approach could be applied to different SMT frameworks as well as for both pair-wise and batch training settings.

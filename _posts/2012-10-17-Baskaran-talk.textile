@@ -1,8 +1,0 @@
----
-layout: post
-title: Compact Rule Extraction for Hierarchical Phrase-based Translation
-root: ../../
----
-Baskaran Sankaran will give a 20 minute talk on 17 October, 2012  at ASB 10908. 
-
-"Hierarchical phrase-based model, aka Hiero (Chiang, 2007) is a well-known framework for statistical machine translation (SMT). Hiero employs a synchronous context-free grammar (SCFG) for translation, where the rules are learned directly from the bitext. Hiero models have been shown to be particularly effective for language pairs involving complex reordering requirements as in Chinese-English translation. We present two novel approaches for extracting compact grammars for Hiero. The first is a combinatorial optimization approach and the second is a Bayesian model over Hiero grammars using Variational Bayes for inference. In contrast to the conventional Hiero rule extraction algorithm, our methods extract compact models reducing model size by 17.8% to 57.6% without impacting translation quality across several language pairs. The Bayesian model is particularly effective for resource-poor languages with evidence from Korean-English translation. To the best of our knowledge, this is the first alternative to Hiero-style rule extraction that finds a more compact synchronous grammar without hurting translation performance."

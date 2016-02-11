@@ -1,0 +1,6 @@
+---
+layout: post
+title: "Graph Propagation for MT"
+root: ../../
+---
+In the lab meeting tomorrow, May 14th, Ramtin will present some ideas on graph propagation for MT. He will present some basics from Majid's paper from last year's ACL, plus the ideas in the new paper that extends that work in this year's ACL, and then present his new idea that extends both of these papers.

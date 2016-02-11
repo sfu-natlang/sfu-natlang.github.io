@@ -1,8 +1,0 @@
----
-layout: post
-title: "PhD Depth Examination by GOLNAR SHEIKHSHABBAFGHI"
-root: ../../
----
-On Tuesday, November 25th, 10:00 a.m. at TASC1 9204 WEST, Golnar Sheikhshabbafghi will give her PHD Depth Examination talk on 
-"GRAPH-BASED SEMI-SUPERVISED LEARNING".
-Graph-based semi-supervised learning (SSL) is based on the assumption that similar data points should have similar labels. A graph is constructed whose vertices represent data points and whose edge-weights represent how strongly we believe the adjacent vertices (data points) should get the same label. The graph will connect labeled and unlabeled data points and each vertex is associated with a label distribution that represents the current belief about its label. Having this graph that encodes the similarities between data points, the goal is to find label distributions for all vertices so that 1) for any labeled vertex v, the associated label distribution is as close as possible to its reference distribution obtained from the labeled data based on the number of times each data (point, label) pair appeared together; 2) adjacent vertices in the graph have similar label distributions; 3) the label distributions of all vertices comply with the prior knowledge if such knowledge exists.
