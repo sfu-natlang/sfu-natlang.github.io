@@ -31,17 +31,17 @@ root: ./
             {% for post in site.posts limit:5 %}
             {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
             {% if year != lastyear %}
-            <li><a href="{{ site.baseurl }}/posts/index.html#year{{ year }}">{{ year }}</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}posts/index.html#year{{ year }}">{{ year }}</a></li>
             {% assign lastyear = year %}
             {% endif %}
             {% endfor %}
-            <li><a href="{{ site.baseurl }}/posts/index.html">All</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}posts/index.html">All</a></li>
           </ul>
         </div>
         <div class="container-fluid">
         <!-- <div class="panel panel-info" style="padding:  0.5em;" width:"200px"> -->
         {% for post in site.posts limit:5 %}
-        <h3><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a><br/> <small class="date">{{ post.date | date_to_string }}</small></h3>
+        <h3><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br/> <small class="date">{{ post.date | date_to_string }}</small></h3>
         {{ post.content }}
         {% endfor %}
         </div>
@@ -50,7 +50,7 @@ root: ./
       <h1>Recent Publications</h1>
       <div class="more">
         <ul class="navigate">
-          <li><a href="{{ site.baseurl }}/publications/index.html">See more</a></li>
+          <li><a href="{{ site.url }}{{ site.baseurl }}publications/index.html">See more</a></li>
         </ul>
       </div>
       <textarea id="bibtex_input" style="display:none;"> <!--used in the bib reader-->

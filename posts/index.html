@@ -21,7 +21,7 @@ root: ../
     {% for post in site.posts %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
 	    {% if year != lastyear %}
-            <li><a href="{{ site.baseurl }}/posts/index.html#year{{ year }}">{{ year }}</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}posts/index.html#year{{ year }}">{{ year }}</a></li>
             {% assign lastyear = year %}
 	    {% endif %}
     {% endfor %}
@@ -44,6 +44,6 @@ root: ../
 	<ul>
 	{% assign lastyear = year %}
 	{% endif %}
-	<li>{{ post.date | date_to_string }} &mdash; <a href="{{ site.baseurl }}/{{ post.url }}/index.html">{{ post.title }}</a></li>
+	<li>{{ post.date | date_to_string }} &mdash; <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}/index.html">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
