@@ -1,7 +1,0 @@
----
-layout: post
-title: Graph-based Semi-Supervised Learning 
-root: ../../
----
-
-Max Whitney will give a tutorial on Graph-based Semi-supervised learning methods in the next lab meeting on Wednesday, September 26. This will be based on the graph-based learning tutorial from Subramanya & Talukdar given at ACL 2012, <a href=" http://graph-ssl.wikidot.com/"> http://graph-ssl.wikidot.com/</a>.

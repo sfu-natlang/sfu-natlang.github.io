@@ -1,9 +1,0 @@
----
-layout: post
-title: The Natural Language Laboratory at the SFU 2012 Open House
-root: ../../
----
-
-!{{ site.baseurl }}images/openhouse-2012.png(Natural Language Lab students at the open house)!
-
-The Natural Language Lab was at <a href="http://www.sfu.ca/openhouse/2012.html">SFU's 2012 open house</a> on May 26, in the Computing Science area in the ASB atrium. Our main demonstration was Ravikiran Vadlapudi and Anoop Sarkar's project "Lensing:Wikipedia":{{ site.baseurl }}software/lensingwikipedia.html , which can be seen live at "lensingwikipedia.cs.sfu.ca":http://lensingwikipedia.cs.sfu.ca.
