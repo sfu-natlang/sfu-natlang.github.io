@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Mohammad Mahdi Soleimani Nasab MCS Thesis Defence"
+title: "Mohammad Mahdi Soleimani Nasab MSc Thesis Defence"
 root: ../../
 ---
-On April 1st 10:30 a.m., Mahdi gave his thesis defence on the topic "ON THE IMPORTANCE OF DECODING IN SEMI-SUPERVISED LEARNING".
+On April 1st 10:30am, Mahdi gave his thesis defence on the topic "On the Importance of Decoding in Semi-supervised Learning".
 
 Abstract:
 
