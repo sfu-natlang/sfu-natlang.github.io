@@ -1,4 +1,4 @@
-baseurl: http://natlang.cs.sfu.ca/
+url: "http://natlang.cs.sfu.ca/"
 exclude: ['README.md']
 timezone: US/Pacific
 markdown: kramdown
