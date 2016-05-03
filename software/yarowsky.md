@@ -4,7 +4,9 @@ title: Bootstrapping with the Yarowksy algorithm
 pageclass: software
 ---
 
-![Plot comparing our Yarowsky-prop algorithm with Yarowsky-cautious.](}images/whitney-sarkar-2012-ypropplot.png "Plot comparing our Yarowsky-prop algorithm with Yarowsky-cautious.") ![Two graph representations used in our paper.](}images/whitney-sarkar-2012-twographs.png "Two graph representations used in our paper.")
+![Plot comparing our Yarowsky-prop algorithm with Yarowsky-cautious.]({{ site.baseurl }}images/whitney-sarkar-2012-ypropplot.png ) 
+
+![Two graph representations used in our paper.]({{ site.baseurl }}images/whitney-sarkar-2012-twographs.png)
 
 -   [Github repository](https://github.com/sfu-natlang/yarowsky)
 
