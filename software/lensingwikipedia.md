@@ -4,7 +4,7 @@ title: Lensing Wikipedia
 pageclass: software
 ---
 
-![A visual interface to Wikipedia.]("{{ site.baseurl }}/images/lensingscreen.png")
+![A visual interface to Wikipedia.]({{ site.baseurl }}/images/lensingscreen.png)
 
 -   [Website](http://lensingwikipedia.cs.sfu.ca)
 
