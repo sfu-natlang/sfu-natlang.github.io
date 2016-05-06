@@ -11,6 +11,7 @@ Segmentation of the incoming speech stream and translating segments incrementall
 In this work, we provide a new algorithm, using Pareto-optimality, for ﬁnding good segment boundaries that can balance the trade-oﬀ between latency versus translation quality. We compare against the state-of-the-art greedy algorithm from (Oda et al. 2014). Our experimental results show that we can improve latency by up to 12% without harming the Bleu score for the same average segment length. Another beneﬁt is that for any segment size, Pareto-optimal segments maximize latency and translation quality.
 
 M.Sc. Examining Committee:
+
 * Dr. Anoop Sarkar, Senior Supervisor
 * Dr. Fred Popowich, Supervisor
 * Dr. William D. Lewis, Examiner, Microsoft Research and University of Washington
