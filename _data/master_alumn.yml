@@ -1,3 +1,7 @@
+- name: Te Bu
+  url: http://www.sfu.ca/~tbu
+  location: Microsoft
+  
 - name: Ramtin Mehdizadeh
   url: "http://www.sfu.ca/~rmehdiza"
   position: "Machine learning engineer"
