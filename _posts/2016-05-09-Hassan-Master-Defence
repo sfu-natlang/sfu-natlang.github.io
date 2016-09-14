@@ -1,4 +1,8 @@
-Sayyedhassan Shavarani gave his master thesis defence on May 09, 2016.
+---
+layout: post
+title: "Zhelun's Thesis Defence"
+root: ../../
+---
+ZheLun gave his master thesis defence on July 20, 2016.
 Here is the Abstract:
-Segmentation of the incoming speech stream and translating segments incrementally is a commonly used technique that improves latency in spoken language translation. Previous work has explored creating training data for segmentation by ﬁnding segments that maximize translation quality with a user-deﬁned bound on segment length.
-In this work, we provide a new algorithm, using Pareto-optimality, for ﬁnding good segment boundaries that can balance the trade-oﬀ between latency versus translation quality. We compare against the state-of-the-art greedy algorithm from (Oda et al. 2014) [1]. Our experimental results show that we can improve latency by up to 12% without harming the Bleu score for the same average segment length. Another beneﬁt is that for any segment size, Pareto-optimal segments maximize latency and translation quality.
+A very common computational task in monitoring online chat sessions is stopping users from sending malicious chat messages. Examples of malicious messages include age-inappropriate language, cyber-bullying, and sending out personal information. Rule based filtering systems are commonly used to deal with this problem, but not all of the malicious messages can be filtered out as people invent increasingly subtle ways to disguise their malicious messages to bypass such filtering systems. Machine learning classifiers can also be used to identify and filter malicious messages. However, such classifiers still rely on training data that becomes out of date and new forms of malicious text cannot be detected by the classifier. In this thesis, to solve this problem we model the messages corrupted by a malicious user to bypass a chat filter as a cipher text. We apply automatic decipherment techniques using Expectation-Maximization with Hidden Markov Models and a beam search algorithm in order to decrypt corrupted malicious text back into plain text which can be then filtered using rules or a classifier.
