@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Zhelun's Thesis Defence"
+root: ../../
+---
+
 On July 20th 2016, Zhelun Wu gave his master thesis defence on the topic of Decipherment of Evasive or Encrypted Offensive Text.
 Here is the Abstract:
 A very common computational task in monitoring online chat sessions is stopping users from sending malicious chat messages. 
