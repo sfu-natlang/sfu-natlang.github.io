@@ -1,0 +1,4 @@
+Sayyedhassan Shavarani gave his master thesis defence on May 09, 2016.
+Here is the Abstract:
+Segmentation of the incoming speech stream and translating segments incrementally is a commonly used technique that improves latency in spoken language translation. Previous work has explored creating training data for segmentation by ﬁnding segments that maximize translation quality with a user-deﬁned bound on segment length.
+In this work, we provide a new algorithm, using Pareto-optimality, for ﬁnding good segment boundaries that can balance the trade-oﬀ between latency versus translation quality. We compare against the state-of-the-art greedy algorithm from (Oda et al. 2014) [1]. Our experimental results show that we can improve latency by up to 12% without harming the Bleu score for the same average segment length. Another beneﬁt is that for any segment size, Pareto-optimal segments maximize latency and translation quality.
