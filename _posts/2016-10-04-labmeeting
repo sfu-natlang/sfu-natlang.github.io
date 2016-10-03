@@ -1,9 +1,0 @@
----
-layout: post
-title: "Zhelun's Thesis Defence"
-root: ../../
----
-
-On October 4th, Jake Lever, a PHD candidate in Bioinformatics from UBC will give a talk during the lab meeting.
-He is working on knowledge discovery and he is going to talk about three of his major projects. 
-The first focuses on knowledge discovery by inferring relations between biomedical concepts using approaches from recommender systems. The second focuses on biomedical relation extraction and this year's BioNLP shared task. And the third talks about using NLP to build knowledge bases for personalised medicine.
