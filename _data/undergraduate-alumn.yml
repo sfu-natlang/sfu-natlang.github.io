@@ -1,3 +1,19 @@
+- name: Ian Stewart 
+  university: SFU
+
+- name: Evan Zhang
+  university: SFU
+  information: 2013
+
+- name: Sun Yan
+  university: SFU
+
+- name: Di Fu
+  university: SFU
+  
+- name: Yizhou Wang
+  university: SFU
+  
 - name: Utkarsh Patange
   university: IIT Kanpur  
   information: Summer 2014 (<a href=https://www.mitacs.ca/en/programs/globalink> "MITACS Globalink" </a>)
