@@ -8,7 +8,7 @@ title: About
 What is Natural Language Processing?
 ====================================
 
-<img src="{{ site.baseurl }}/images/oldsite/natlang1-150x122.jpg" alt="" class="pull-right" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/oldsite/natlang1-150x122.jpg" alt="" class="pull-right" />
 
 Natural Language Processing (NLP) is the automatic analysis of human languages such as English, Korean, etc. by computer algorithms. Unlike artificially created programming languages where the structure and meaning of programs is easy to encode, human languages provide an interesting challenge, both in terms of its analysis and the learning of language from observations.
 
@@ -23,7 +23,7 @@ Our lab has a particular focus on research into statistical machine translation 
 History of our Lab
 ==================
 
-<img src="{{ site.baseurl }}/images/oldsite/natlang2-150x124.jpg" alt="" class="pull-right" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/oldsite/natlang2-150x124.jpg" alt="" class="pull-right" />
 
 The natural language laboratory at Simon Fraser University was founded in 1983 and is one of the larger North American labs working on natural language processing and computational linguistics.
 
@@ -55,7 +55,7 @@ For Prospective Students and Potential Industry Partners
 
 We are always looking for motivated, good graduate students. We are also keen on fostering links with industry for joint projects that are based on research grants and/or student internships that allow graduate students to spend time at companies doing high-risk high-reward natural language processing projects.
 
-<img src="{{ site.baseurl }}/images/oldsite/tasc1-clerestory-sm-150x150.jpg" title="TASC-1 building interior" alt="TASC-1 building interior" class="pull-right" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/oldsite/tasc1-clerestory-sm-150x150.jpg" title="TASC-1 building interior" alt="TASC-1 building interior" class="pull-right" />
 
 Please contact either of the following faculty members:
 
@@ -69,7 +69,7 @@ Contact Us
 
 The SFU Natural Language Laboratory and the faculty offices are located on the SFU Burnaby campus in the TASC-1 building (Technology and Science Complex 1), just south of Science Road and north of South Campus Road, east of the South Science Building. The lab is in Suite 9404.
 
-<img src="{{ site.baseurl }}/images/oldsite/tasc1fromthestreetsfusere9-150x150.jpg" title="TASC-1 building street view" alt="TASC-1 building street view" class="pull-right" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/oldsite/tasc1fromthestreetsfusere9-150x150.jpg" title="TASC-1 building street view" alt="TASC-1 building street view" class="pull-right" />
 
 See [here](http://www.sfu.ca/content/sfu/sub/about/maps-and-directions/burnaby.html) for maps and driving and transit instructions. If you come by bus, stay on until the last stop on campus (the Bus Loop next to Lot E in the map). It is a short walk south to TASC-1. If you drive up, you will have to find parking in one of the visitor spots and make your way to the TASC-1 building. The closest visitor parking is Lot VB in the map above.
 
