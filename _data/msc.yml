@@ -1,8 +1,12 @@
-# Sample- 
+# Sample-
 # - name: (requried)
 #   url:  (optional)
 #   picture_url: (recommended)
 # please make sure you add a dash at first
+
+- name: Bdour Alzeer
+  url: https://www.linkedin.com/in/bdour-alzeer-38a9958b/
+  picture_url: /images/bdour-profile.jpg
 
 - name: Wasifa Chowdhury
   url: https://sites.google.com/site/wasifachowdhury
@@ -12,16 +16,12 @@
 
 - name: Vivian Kou
 
+- name: Lindsey Sawatzky
+
 - name: Khoa Tran
   url: http://www.sfu.ca/~khoat
   picture_url: https://avatars0.githubusercontent.com/u/8714646
 
 - name: Andrei Vacariu
   url: https://avacariu.me
-  picture_url: https://avacariu.me/images/profile-photo-185.jpg 
-
-
-
-
-
-
+  picture_url: https://avacariu.me/images/profile-photo-185.jpg
