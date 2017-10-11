@@ -8,7 +8,6 @@ Andrei is going to defend his thesis next week and Ashkan is planning to have hi
 
 
 Ashkan's Abstract: Studies on Machine Translation (MT) has a long history, but most of the works in this area assumes we can have access to the entire sentences. As a result, it is not practical to apply them on Real-Time Machine Translation where the objective is to start translation before receiving the full sentences. Divergent syntax of different languages makes it a great challenge for both humans and machines to start translating while new inputs are still being received.
-
 Over the past few years, the great success of using deep neural networks in Real-Time translation systems, led this field to evolve in a completely new direction and improved the results; However, many of the problems from conventional systems remained unsolved. This talk provides a review over the latest methods of utilizing neural attention models for the task of simultaneous machine translation. 
 
 
