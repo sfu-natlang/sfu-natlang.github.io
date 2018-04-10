@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Artashes will talk about "Attention is all you need" paper in our lab meeting"
+title: "Artashes will talk about 'Attention is all you need' paper in our lab meeting"
 root: ../../
 ---
 
