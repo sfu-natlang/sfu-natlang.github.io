@@ -1,0 +1,11 @@
+---
+layout: post
+title: "'Mahmoud from Computational Logic Lab will talk about dynamic gated graph neural networks "
+root: ../../
+---
+This week in our lab meeting, Mahmoud from Computational Logic Lab will have a presentation about dynamic gated graph neural networks. Here is the title and abstract of his talk:
+
+Title: Scene graph generation with dynamic gated graph neural networks.
+Abstract: In spite of recent advances in Visual Question Answering (VQA), current VQA models often fail on sufficiently new samples, converge on an answer after listening to only a few words of the question, and do not alter their answers across different images. Most of these models try to build a loose association between the given training QA pairs and images in an end-to-end framework. But, to achieve success at VQA task, a model must be able to recognize the objects and their visual relationships in an image, identify the attributes of these objects, and reason about the role of each object in the scene context. To address these issues, we propose a new deep model, called Dynamic Gated Graph Neural Networks (D-GGNN), for extracting a scene graph for an image, given a set of bounding box proposals. A scene graph is a visually-grounded digraph for an image, where the nodes represent the objects and the edges show the relationships between them. Unlike the recently proposed Gated Graph Neural Networks (GGNN), the D-GGNN can be applied to an input image when only partial relationship information, or none at all, is known. In each training episode, the D-GGNN sequentially builds a candidate scene graph for a given training input and labels additional nodes and edges of the graph. The scene graph is constructed using a deep reinforcement learning framework, where the actions are choosing labels for edges and nodes, and the rewards are defined by the match between the ground-truth annotations in the data and the labels assigned at a point in the search. The predicted scene graph is then used to answer questions about the image using an attention mechanism, where we compute an attention weight for each object of the scene graph based on the given question. Our preliminary experiments show promising results on both VQA and scene graph generation tasks.
+
+Wednesday, June 26th, 10-11 AM, Location: TASC1 9408.
