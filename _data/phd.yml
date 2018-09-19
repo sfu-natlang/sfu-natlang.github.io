@@ -1,4 +1,4 @@
-# Sample- 
+# Sample-
 # - name: (requried)
 #   url:  (optional)
 #   picture_url: (recommended)
@@ -22,7 +22,10 @@
 
 - name: Milan Tofiloski
   url: http://www.cs.sfu.ca/~mta45/personal
-  
+
 - name: Hassan S. Shavarani
   url: https://shavarani.github.io/
   picture_url: https://avatars3.githubusercontent.com/u/1238096?v=3&s=400
+
+- name: Nishant Kambhatla
+  picture_url: http://www.sfu.ca/~nkambhat/assets/img/nishant.jpg
