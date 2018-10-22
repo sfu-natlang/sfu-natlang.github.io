@@ -3,7 +3,7 @@ layout: post
 title: "Natlang in EMNLP 2018"
 root: ../../
 ---
-In our lab meeting this week, Ashkan, Jetic, and Nishant will present their posters, and Golnar will have a talk covering the material they prepared for EMNLP 2018. Here are the titles and abstracts of their presentations:
+In our lab meeting this week, Ashkan, Jetic, and Nishant will present their posters, and Golnar will have a talk covering the material she prepared for EMNLP 2018. Here are the titles and abstracts of their presentations:
 
 Golnar: GraphNER: Using Corpus Level Similarities and Graph Propagation for Named Entity Recognition.
 
