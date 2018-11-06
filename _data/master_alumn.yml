@@ -1,4 +1,25 @@
+- name: Nishant Kambhatla
+  position: "Ph.D. student with Anoop"
+  location: "SFU NatLang"
+  
+- name: Logan Born
 
+- name: Andrei Vacariu
+  url: https://avacariu.me
+  picture_url: https://avacariu.me/images/profile-photo-185.jpg
+  position: "Software Developer"
+  location: "Emtelligent, Vancouver"
+
+- name: Vivian Kou
+  position: "Software Engineer"
+  location: "Microsoft, Bellevue, Washington(U.S.A)"
+
+- name: Khoa Tran
+  url: http://www.sfu.ca/~khoat
+  picture_url: https://avatars0.githubusercontent.com/u/8714646
+  position: "Software Development Engineer"
+  location: "Amazon, Vancouver"
+  
 - name: Jasneet Sabharwal
   url: http://jasneetsabharwal.com
   position: "Director of Development"
