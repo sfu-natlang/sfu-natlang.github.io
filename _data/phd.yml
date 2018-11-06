@@ -4,9 +4,6 @@
 #   picture_url: (recommended)
 # please make sure you add a dash at first
 
-- name: Ashkan Alinejad
-  picture_url: /images/fullsizeoutput_35e1.jpeg
-
 - name: Anahita Mansouri
   url: http://www.cs.sfu.ca/~amansour/personal
 
@@ -16,13 +13,12 @@
 
 - name: Golnar Sheikhshab
 
-- name: Maryam Siahbani
-  url: http://www.cs.sfu.ca/~msiahban/personal
-  picture_url: https://avatars1.githubusercontent.com/u/1779225?v=3&s=400
-
 - name: Milan Tofiloski
   url: http://www.cs.sfu.ca/~mta45/personal
 
+- name: Ashkan Alinejad
+  picture_url: /images/fullsizeoutput_35e1.jpeg
+  
 - name: Hassan S. Shavarani
   url: https://shavarani.github.io/
   picture_url: https://avatars3.githubusercontent.com/u/1238096?v=3&s=400
