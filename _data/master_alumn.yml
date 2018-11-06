@@ -1,7 +1,7 @@
 - name: Nishant Kambhatla
   url: "https://aclanthology.info/people/nishant-kambhatla"
   position: "Ph.D. student with Anoop"
-  location: "SFU NatLang"
+  location: "NatLang Lab at SFU"
   
 - name: Logan Born
 
@@ -28,6 +28,8 @@
 
 - name: S. Hassan Shavarani
   url: http://www.sfu.ca/~sshavara
+  position: "Ph.D. student with Anoop"
+  location: "NatLang Lab at SFU"
 
 - name: Mehdi Soleimani
   url: http://www.sfu.ca/~mahdis
@@ -38,6 +40,7 @@
   
 - name: Te Bu
   url: http://www.sfu.ca/~tbu
+  position:"Software Engineer"
   location: Microsoft
   
 - name: Ramtin Mehdizadeh
