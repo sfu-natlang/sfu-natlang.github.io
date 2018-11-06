@@ -4,12 +4,6 @@
 #   picture_url: (recommended)
 # please make sure you add a dash at first
 
-- name: Bdour Alzeer
-  url: https://www.linkedin.com/in/bdour-alzeer-38a9958b/
-  picture_url: /images/bdour-profile.jpg
-
-- name: Artaches Ambartsoumian
-
 - name: Wasifa Chowdhury
   url: https://sites.google.com/site/wasifachowdhury
   picture_url: https://sites.google.com/site/wasifachowdhury/home/DSC_0509%20%282%29.JPG
@@ -18,17 +12,13 @@
   url: http://ghobadipasha.com
   picture_url: http://s8.picofile.com/file/8307934084/nadia.jpg
 
-- name: Vivian Kou
+- name: Artaches Ambartsoumian
 
+- name: Bdour Alzeer
+  url: https://www.linkedin.com/in/bdour-alzeer-38a9958b/
+  picture_url: /images/bdour-profile.jpg
+  
 - name: Lindsey Sawatzky
-
-- name: Khoa Tran
-  url: http://www.sfu.ca/~khoat
-  picture_url: https://avatars0.githubusercontent.com/u/8714646
-
-- name: Andrei Vacariu
-  url: https://avacariu.me
-  picture_url: https://avacariu.me/images/profile-photo-185.jpg
 
 - name: Jetic Gū
   url: https://jetic.org/about
