@@ -4,7 +4,7 @@ SFU Natural Language Lab website
 http://sfu-natlang.github.io
 
 Source files for the SFU natural language lab website using Jekyll
-for content and Bootstrap for markup plus some custom Javascript.
+for content, Bootstrap for markup, plus some custom Javascript.
 
 ## Web version
 
@@ -13,10 +13,9 @@ This website is hosted on Github Pages in the following repository:
     https://github.com/sfu-natlang/sfu-natlang.github.io.git
     git@github.com:sfu-natlang/sfu-natlang.github.io.git
 
-If you have write access to this repository then to update the web
-version all you need to do is update the repository, commit your
-changes and push to github. The web version will be updated in a
-few minutes by Github.
+If you have write access to this repository, you can update the web
+version by commiting changes and pushing them to Github. The
+web version will be updated in a few minutes by Github.
 
 The website is built using [jekyll](http://jekyllrb.com/).
 
