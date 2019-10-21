@@ -1,5 +1,5 @@
 _site/*
-.jelkyll-cache/*
+.jekyll-cache/*
 # Compiled source #
 ###################
 *.com
