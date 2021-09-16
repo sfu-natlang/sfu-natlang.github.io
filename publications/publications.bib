@@ -1,3 +1,79 @@
+@inproceedings{born-etal-2021-compositionality,
+    title = "Compositionality of Complex Graphemes in the Undeciphered {P}roto-{E}lamite Script using Image and Text Embedding Models",
+    author = "Born, Logan  and
+      Kelley, Kathryn  and
+      Monroe, M. Willis  and
+      Sarkar, Anoop",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+    month = aug,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-acl.362",
+    doi = "10.18653/v1/2021.findings-acl.362",
+    pages = "4136--4146",
+}
+
+@inproceedings{shavarani-sarkar-2021-better,
+    title = "Better Neural Machine Translation by Extracting Linguistic Information from {BERT}",
+    author = "Shavarani, Hassan S.  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eacl-main.241",
+    pages = "2772--2783",
+    abstract = "Adding linguistic information (syntax or semantics) to neural machine translation (NMT) have mostly focused on using point estimates from pre-trained models. Directly using the capacity of massive pre-trained contextual word embedding models such as BERT(Devlin et al., 2019) has been marginally useful in NMT because effective fine-tuning is difficult to obtain for NMT without making training brittle and unreliable. We augment NMT by extracting dense fine-tuned vector-based linguistic information from BERT instead of using point estimates. Experimental results show that our method of incorporating linguistic information helps NMT to generalize better in a variety of training contexts and is no more difficult to train than conventional Transformer-based NMT.",
+}
+
+
+@inproceedings{moradi-etal-2021-measuring,
+    title = "Measuring and Improving Faithfulness of Attention in Neural Machine Translation",
+    author = "Moradi, Pooya  and
+      Kambhatla, Nishant  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eacl-main.243",
+    pages = "2791--2802",
+    abstract = "While the attention heatmaps produced by neural machine translation (NMT) models seem insightful, there is little evidence that they reflect a model{'}s true internal reasoning. We provide a measure of faithfulness for NMT based on a variety of stress tests where attention weights which are crucial for prediction are perturbed and the model should alter its predictions if the learned weights are a faithful explanation of the predictions. We show that our proposed faithfulness measure for NMT models can be improved using a novel differentiable objective that rewards faithful behaviour by the model through probability divergence. Our experimental results on multiple language pairs show that our objective function is effective in increasing faithfulness and can lead to a useful analysis of NMT model behaviour and more trustworthy attention heatmaps. Our proposed objective improves faithfulness without reducing the translation quality and has a useful regularization effect on the NMT model and can even improve translation quality in some cases.",
+}
+
+@inproceedings{alinejad-sarkar-2020-effectively,
+    title = "Effectively pretraining a speech translation decoder with Machine Translation data",
+    author = "Alinejad, Ashkan  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.emnlp-main.644",
+    doi = "10.18653/v1/2020.emnlp-main.644",
+    pages = "8014--8020",
+    abstract = "Directly translating from speech to text using an end-to-end approach is still challenging for many language pairs due to insufficient data. Although pretraining the encoder parameters using the Automatic Speech Recognition (ASR) task improves the results in low resource settings, attempting to use pretrained parameters from the Neural Machine Translation (NMT) task has been largely unsuccessful in previous works. In this paper, we will show that by using an adversarial regularizer, we can bring the encoder representations of the ASR and NMT tasks closer even though they are in different modalities, and how this helps us effectively use a pretrained NMT decoder for speech translation.",
+}
+
+@inproceedings{zhu-sarkar-2019-deconstructing,
+    title = "Deconstructing Supertagging into Multi-Task Sequence Prediction",
+    author = "Zhu, Zhenqi  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/K19-1002",
+    doi = "10.18653/v1/K19-1002",
+    pages = "12--21",
+    abstract = "Supertagging is a sequence prediction task where each word is assigned a piece of complex syntactic structure called a supertag. We provide a novel approach to multi-task learning for Tree Adjoining Grammar (TAG) supertagging by deconstructing these complex supertags in order to define a set of related but auxiliary sequence prediction tasks. Our multi-task prediction framework is trained over the exactly same training data used to train the original supertagger where each auxiliary task provides an alternative view on the original prediction task. Our experimental results show that our multi-task approach significantly improves TAG supertagging with a new state-of-the-art accuracy score of 91.39{\%} on the Penn Treebank supertagging dataset.",
+}
+
 @article{moradi2019interrogating,
   title={Interrogating the Explanatory Power of Attention in Neural Machine Translation},
   author={Moradi, Pooya and Kambhatla, Nishant and Sarkar, Anoop},
