@@ -4,19 +4,19 @@
 #   picture_url: (recommended)
 # please make sure you add a dash at first
 
-- name: Anahita Mansouri
-  url: http://www.cs.sfu.ca/~amansour/personal
-  picture_url: "http://natlang.cs.sfu.ca/images/anahita.jpg"
+# - name: Anahita Mansouri
+#   url: http://www.cs.sfu.ca/~amansour/personal
+#   picture_url: "http://natlang.cs.sfu.ca/images/anahita.jpg"
 
-- name : Lydia Odilinye
-  url: http://ca.linkedin.com/pub/lydia-odilinye/34/a11/298
+# - name : Lydia Odilinye
+#   url: http://ca.linkedin.com/pub/lydia-odilinye/34/a11/298
 
-- name: Golnar Sheikhshab
-  url: https://aclanthology.info/people/golnar-sheikhshab
+# - name: Golnar Sheikhshab
+#   url: https://aclanthology.info/people/golnar-sheikhshab
 
-- name: Ashkan Alinejad
-  url: https://aclanthology.info/people/ashkan-alinejad
-  picture_url: http://natlang.cs.sfu.ca/images/ashkan.jpg
+# - name: Ashkan Alinejad
+#   url: https://aclanthology.info/people/ashkan-alinejad
+#   picture_url: http://natlang.cs.sfu.ca/images/ashkan.jpg
 
 - name: Hassan S. Shavarani
   url: https://shavarani.github.io/
