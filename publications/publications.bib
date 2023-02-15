@@ -1,15 +1,45 @@
+@inproceedings{kambhatla-etal-2023-decipherment,
+    abbr="EAMT",
+    title = "Decipherment as Regression: Solving Historical Substitution Ciphers by Learning Symbol Recurrence Relations",
+    author = "Kambhatla, Nishant  and
+    Born, Logan and
+    Sarkar, Anoop",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Findings (To Appear)",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    abstract = "Solving substitution ciphers involves mapping sequences of cipher symbols to fluent text in a target language. This has conventionally been formulated as a search problem, to find the decipherment key using a character-level language model to constrain the search space. This work instead frames decipherment as a sequence prediction task, using a Transformer-based causal language model to learn recurrences between characters in a ciphertext. We introduce a novel technique for transcribing arbitrary substitution ciphers into a common recurrence encoding. By leveraging this technique, we (i) create a large synthetic dataset of homophonic ciphers using random keys, and (ii) train a decipherment model that predicts the plaintext sequence given a recurrence-encoded ciphertext. Our method achieves strong results on synthetic 1:1 and homophonic ciphers, and cracks several real historic homophonic ciphers. Our analysis shows that the model learns recurrence relations between cipher symbols and recovers decipherment keys in its self-attention."
+    }
+
+@inproceedings { born-etal-2022-sequence,
+       title = "Sequence Models for Document Structure Identification in an Undeciphered Script",
+       author = "Born, Logan  and
+         Monroe, M.  and
+         Kelley, Kathryn  and
+         Sarkar, Anoop",
+       booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+       month = dec,
+       year = "2022",
+       address = "Abu Dhabi, United Arab Emirates",
+       publisher = "Association for Computational Linguistics",
+       url = "https://aclanthology.org/2022.emnlp-main.620",
+       pages = "9111--9121",
+       abstract = "This work describes the first thorough analysis of  { `` } header { '' }  signs in proto-Elamite, an undeciphered script from 3100-2900 BCE. Headers are a category of signs which have been provisionally identified through painstaking manual analysis of this script by domain experts. We use unsupervised neural and statistical sequence modeling techniques to provide new and independent evidence for the existence of headers, without supervision from domain experts. Having affirmed the existence of headers as a legitimate structural feature, we next arrive at a richer understanding of their possible meaning and purpose by (i) examining which features predict their presence; (ii) identifying correlations between these features and other document properties; and (iii) examining cases where these features predict the presence of a header in texts where domain experts do not expect one (or vice versa). We provide more concrete processes for labeling headers in this corpus and a clearer justification for existing intuitions about document structure in proto-Elamite.",
+    } 
+
 @inproceedings{kambhatla-etal-2022-auxiliary,
     abbr="EAMT",
     title = "Auxiliary Subword Segmentations as Related Languages for Low Resource Multilingual Translation",
     author = "Kambhatla, Nishant  and
     Born, Logan and
     Sarkar, Anoop",
-    booktitle = "Proceedings of the The 23rd Annual Conference of the European Association for Machine Translation (To Appear)",
+    booktitle = "Proceedings of the The 23rd Annual Conference of the European Association for Machine Translation",
     month = jun,
     year = "2022",
     address = "Online",
     publisher = "Association for Computational Linguistics",
-    url = "https://protonish.github.io/assets/pdf/multisub_eamt2022.pdf",
+    url = "https://aclanthology.org/2022.eamt-1.16.pdf",
     abstract = "We propose a novel technique of combining multiple subword tokenizations of a single source-target language pair for use with multilingual neural translation training methods. These alternate segmentations function like related languages in multilingual translation, improving translation accuracy for low-resource languages and producing translations that are lexically diverse and morphologically rich. We also introduce a cross-teaching technique which yields further improvements in translation accuracy and cross-lingual transfer between high- and low-resource language pairs. Compared to other strong multilingual baselines, our approach yields average gains of +1.7 BLEU across the four low-resource datasets from the multilingual TED-talks dataset. Our technique does not require additional training data and is a drop-in improvement for any existing neural translation system.",
 }
 
@@ -19,13 +49,29 @@
     author = "Kambhatla, Nishant  and
     Born, Logan and
     Sarkar, Anoop",
-    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Long Paper (To Appear)",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics: Long Paper",
     month = may,
     year = "2022",
     address = "Online",
     publisher = "Association for Computational Linguistics",
-    url = "https://protonish.github.io/assets/pdf/cipherdaug_acl2022.pdf",
+    url = "https://aclanthology.org/2022.acl-long.17.pdf",
     abstract = "We propose a novel data-augmentation technique for neural machine translation based on ROT-k ciphertexts. ROT-k is a simple letter substitution cipher that replaces a letter in the plaintext with the kth letter after it in the alphabet. We first generate multiple ROT-k ciphertexts using different values of k for the plaintext which is the source side of the parallel data. We then leverage this enciphered training data along with the original parallel data via multi-source training to improve neural machine translation. Our method, CipherDAug, uses a co-regularization-inspired training procedure, requires no external data sources other than the original training data, and uses a standard Transformer to outperform strong data augmentation techniques on several datasets by a significant margin. This technique combines easily with existing approaches to data augmentation, and yields particularly strong results in low-resource settings.",
+}
+
+@inproceedings{alinejad-etal-2021-translation,
+    title = "Translation-based Supervision for Policy Generation in Simultaneous Neural Machine Translation",
+    author = "Alinejad, Ashkan  and
+      Shavarani, Hassan S.  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.130",
+    doi = "10.18653/v1/2021.emnlp-main.130",
+    pages = "1734--1744",
+    abstract = "In simultaneous machine translation, finding an agent with the optimal action sequence of reads and writes that maintain a high level of translation quality while minimizing the average lag in producing target tokens remains an extremely challenging problem. We propose a novel supervised learning approach for training an agent that can detect the minimum number of reads required for generating each target token by comparing simultaneous translations against full-sentence translations during training to generate oracle action sequences. These oracle sequences can then be used to train a supervised model for action generation at inference time. Our approach provides an alternative to current heuristic methods in simultaneous translation by introducing a new training objective, which is easier to train than previous attempts at training the agent using reinforcement learning techniques for this task. Our experimental results show that our novel training method for action generation produces much higher quality translations while minimizing the average lag in simultaneous translation.",
 }
 
 @inproceedings{born-etal-2021-compositionality,
