@@ -1,6 +1,10 @@
 - name: Jetic Gū
+  url: "https://jetic.org/about"
+  position: "Ph.D. student with Anoop"
+  location: "NatLang Lab at SFU"
   
 - name: Artaches Ambartsoumian
+  url: "https://aclanthology.org/people/a/artaches-ambartsoumian/"
 
 - name: "Nishant Kambhatla"
   url: "https://aclanthology.info/people/nishant-kambhatla"
@@ -8,11 +12,14 @@
   location: "NatLang Lab at SFU"
 
 - name: Logan Born
+  url: "https://mrlogarithm.github.io/about-me/about.html"
+  position: "Ph.D. student with Anoop"
+  location: "NatLang Lab at SFU"
 
 - name: Andrei Vacariu
   url: https://avacariu.me
   picture_url: https://avacariu.me/images/profile-photo-185.jpg
-  position: "Software Developer"
+  position: "Senior Software Developer"
   location: "Emtelligent, Vancouver"
 
 - name: Vivian Kou
@@ -22,7 +29,7 @@
 - name: Khoa Tran
   url: http://www.sfu.ca/~khoat
   picture_url: https://avatars0.githubusercontent.com/u/8714646
-  position: "Software Development Engineer"
+  position: "Senior Software Development Engineer"
   location: "Amazon, Vancouver"
 
 - name: Jasneet Sabharwal
@@ -39,8 +46,9 @@
   url: http://www.sfu.ca/~mahdis
 
 - name: Zhelun Wu
-  url: http://www.sfu.ca/~zhelunw
-  picture_url: https://avatars0.githubusercontent.com/u/5704462
+  url: http://ca.linkedin.com/in/zhelun-wu-29275b89
+  position: "SDE II"
+  location: Amazon
 
 - name: Te Bu
   url: http://www.sfu.ca/~tbu
@@ -57,35 +65,41 @@
   picture_url: https://avatars1.githubusercontent.com/u/1570179
 
 - name: Rohit Dholakia
-  url: "http://rohitdholakia.com"
-  location: Simba Technologies
+  url: "https://ca.linkedin.com/in/rohitdholakia"
+  position: "Technical Lead"
+  location: Cisco
 
 - name: David Lindberg
-  position: Semantic Engineer
-  location: Marketing.Ai
+  url: "https://ca.linkedin.com/in/david-lindberg-91646380"
+  position: Senior ML Engineer
+  location: Course Hero
 
 - name: Zahra Behfarshad
   information: "UBC MSc student, worked as programmer on the Lensing Wikipedia project"
 
 - name: "Ravikiran Vadlapudi"
-  url: http://www.cs.sfu.ca/~rvadlapu/personal
+  url: https://ca.linkedin.com/in/ravikiranvadlapudi
+  position: "Principal Application Research Scientist"
   location: "Nuance Communications, Montreal"
 
 - name: "Marzieh Razavi"
-  url: http://www.cs.sfu.ca/~mrazavi/personal
-  position: Ph.D. student
-  location: EPFL
+  url: "https://scholar.google.com/citations?user=owZOZ2sAAAAJ&hl=en"
+  position: "Ph.D. at EPFL --> PstDoc at Idiap --> Researcher at Telepathy.ai"
+  location: "Switzerland"
 
 - name: "Max Whitney"
   url: http://www.cs.sfu.ca/~mwhitney/personal
-  position: Learning Chinese in Taiwan
+  position: "Software Developer"
+  location: "Emtelligent, Vancouver"
 
 - name: Julia Birke
-  location: SAP Business Objects
+  location: "SAP Business Objects"
+  
 - name: "Ann Clifton"
-  url: http://www.cs.sfu.ca/~aca69/personal
-  information: back for Ph.D.
-
+  url: https://engineering.atspotify.com/2020/04/my-beat-ann-clifton/
+  position: "Ph.D. with Anoop -> Research Scientist, Amazon -> "Staff Research Scientist"
+  location: "Spotify, New York"
+  
 - name: Nicolas Demers
 
 - name: Cesar Dragunsky
