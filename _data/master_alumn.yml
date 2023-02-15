@@ -18,7 +18,6 @@
 
 - name: Andrei Vacariu
   url: https://avacariu.me
-  picture_url: https://avacariu.me/images/profile-photo-185.jpg
   position: "Senior Software Developer"
   location: "Emtelligent, Vancouver"
 
@@ -28,7 +27,6 @@
 
 - name: Khoa Tran
   url: http://www.sfu.ca/~khoat
-  picture_url: https://avatars0.githubusercontent.com/u/8714646
   position: "Senior Software Development Engineer"
   location: "Amazon, Vancouver"
 
@@ -48,12 +46,12 @@
 - name: Zhelun Wu
   url: http://ca.linkedin.com/in/zhelun-wu-29275b89
   position: "SDE II"
-  location: Amazon
+  location: "Amazon"
 
 - name: Te Bu
   url: http://www.sfu.ca/~tbu
   position: "Software Engineer"
-  location: Microsoft
+  location: "Microsoft"
 
 - name: Ramtin Mehdizadeh
   url: "http://www.sfu.ca/~rmehdiza"
@@ -61,13 +59,12 @@
   location: "Axiom Zen, Inc."
 
 - name: Bradley Ellert
-  url: http://ca.linkedin.com/in/bellert/
-  picture_url: https://avatars1.githubusercontent.com/u/1570179
+  url: "http://ca.linkedin.com/in/bellert/"
 
 - name: Rohit Dholakia
   url: "https://ca.linkedin.com/in/rohitdholakia"
   position: "Technical Lead"
-  location: Cisco
+  location: "Cisco"
 
 - name: David Lindberg
   url: "https://ca.linkedin.com/in/david-lindberg-91646380"
@@ -75,20 +72,20 @@
   location: Course Hero
 
 - name: Zahra Behfarshad
-  information: "UBC MSc student, worked as programmer on the Lensing Wikipedia project"
+  postion: "UBC MSc student, worked as programmer on the Lensing Wikipedia project"
 
 - name: "Ravikiran Vadlapudi"
-  url: https://ca.linkedin.com/in/ravikiranvadlapudi
+  url: "https://ca.linkedin.com/in/ravikiranvadlapudi"
   position: "Principal Application Research Scientist"
   location: "Nuance Communications, Montreal"
 
 - name: "Marzieh Razavi"
   url: "https://scholar.google.com/citations?user=owZOZ2sAAAAJ&hl=en"
-  position: "Ph.D. at EPFL --> PstDoc at Idiap --> Researcher at Telepathy.ai"
+  position: "PhD at EPFL --> PostDoc at Idiap --> Researcher at Telepathy.ai"
   location: "Switzerland"
 
 - name: "Max Whitney"
-  url: http://www.cs.sfu.ca/~mwhitney/personal
+  url: "http://www.cs.sfu.ca/~mwhitney/personal"
   position: "Software Developer"
   location: "Emtelligent, Vancouver"
 
@@ -96,8 +93,8 @@
   location: "SAP Business Objects"
   
 - name: "Ann Clifton"
-  url: https://engineering.atspotify.com/2020/04/my-beat-ann-clifton/
-  position: "Ph.D. with Anoop -> Research Scientist, Amazon -> "Staff Research Scientist"
+  url: "https://engineering.atspotify.com/2020/04/my-beat-ann-clifton/"
+  position: "PhD with Anoop -> Research Scientist, Amazon -> Staff Research Scientist"
   location: "Spotify, New York"
   
 - name: Nicolas Demers
@@ -105,9 +102,10 @@
 - name: Cesar Dragunsky
 
 - name: Akshay Gattani
-  location: Zeugma Systems
+  location: "Zeugma Systems"
 
 - name: Ajeet Grewal
+  position: "Engg. Director"
   location: "Twitter Inc."
 
 - name: Fahim Hasan
@@ -116,8 +114,8 @@
   location: Innovative Information
 
 - name: Young-chan Kim
-  position: Ph.D. student
-  location: University of Texas at Dallas
+  position: "Ph.D. student"
+  location: "University of Texas at Dallas"
 
 - name: Tomohiko Kimura
 
@@ -159,13 +157,14 @@
   location: health care at Conestoga College
 
 - name: Bruce Wiebe
-  position: Instructor in Linguistics
-  location: Trinity Western University
-  url: http://www.twu.ca/academics/faculty/profiles/wiebe-bruce.html
+  url: "http://www.twu.ca/academics/faculty/profiles/wiebe-bruce.html"
+  position: "Research Officer"
+  location: "Canada Institute of Linguistics"
+  
 
 - name: Winona Wu
-  url: http://www.sfu.ca/~winonaw/
-  location: SAP Business Objects
+  url: "http://www.sfu.ca/~winonaw/"
+  location: "SAP Business Objects"
 
 - name: Yingjian Zhang
   location: "FinancialCAD Corp., BC"
