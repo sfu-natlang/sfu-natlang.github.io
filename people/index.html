@@ -92,19 +92,29 @@ root: ../
 </div>
 
 
+
 <h2>Undergraduate Students</h2>
 <div class="row" id="undergraduate" style="padding-top: 25px;margin-left: 0px;">
- <ul>
-  {% for member in site.data.undergraduate %}
-  <li>
-      {% if member.url %} <a href= {{member.url}} > {{member.name}}  </a>
-    {% else %}
-    {{member.name}} 
-      {% endif %}
-    </li>
+ {% for member in site.data.undergraduate %}
+    <div class="col-sm-4 col-md-3">
+      <div class="thumbnail" style="min-height:320px;">
+        {% if member.picture_url %}
+         <img src="{{member.picture_url}}" style="min-height:200px;height:200px;" alt="...">
+         {% else %}
+         <img src="{{ site.url }}{{ site.baseurl }}/images/Placeholder_person.png" style="min-height:200px;height:200px;" alt="...">
+        {% endif %}
+        <div class="caption" align="center" >
+        {% if member.url %}
+          <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
+          {% else %}
+          <h3>{{ member.name }}</h3>
+          {% endif %}
+        </div>
+      </div>
+    </div>
 {% endfor %}
-</ul>
 </div>
+
 
 <h1 id='adjunct' style="padding-top: 25px;margin-left: 0px;"> Adjunct Members </h1>
 <ul>
