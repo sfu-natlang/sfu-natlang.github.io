@@ -8,7 +8,6 @@ Glad to announce that we're finally restarting our weekly lab meetings and readi
 For this week's **online** lab meeting Aditi will present a review of some of the recent approaches on Simultaneous MT. 
 
 Simultaneous Machine Translation defines a task of generating high-quality translation under low latency. Existing SiMT methods are divided into fixed (Wait-k, Multi-Path Wait-k, MoE Wait-k) and adaptive policies (MiLk, MMA etc.). She will be presenting an overview of the various approaches taken towards this task, and specifically present these 5 papers :
-has selected three papers to survey from EMNLP:
 
 1. Ma et al., "[Monotonic Multihead Attention](https://openreview.net/pdf?id=Hyg96gBKPS)", ICLR 2020
 2. Zhang et al., "[Wait-info Policy: Balancing Source and Target at Information Level for Simultaneous Machine Translation](https://arxiv.org/pdf/2210.11220.pdf)", EMNLP 2022
