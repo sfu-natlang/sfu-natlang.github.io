@@ -4,3 +4,4 @@ exclude: ['README.md']
 timezone: US/Pacific
 markdown: kramdown
 permalink: posts/:year-:month-:day-:title
+future: true
