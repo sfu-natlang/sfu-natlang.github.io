@@ -47,6 +47,8 @@ root: ../
 {% endfor %}
 </div>
 {% endif %}
+
+{% if site.data.phd %}
 <div class="row" id="phd" style="padding-top: 25px;margin-left: 0px;">
 <h2>Ph.D. Students</h2>
   {% for member in site.data.phd %}
@@ -62,13 +64,18 @@ root: ../
           <h3><a href="{{ member.url }}" >{{ member.name }}</a></h3>
           {% else %}
           <h3>{{ member.name }}</h3>
-          {% endif %}       </div>
+          {% endif %}       
+        {% if member.advisor %}
+          <h4>Advisor: {{ member.advisor }}</h4>
+        {% endif %}  
+        </div>
       </div>
     </div>
 {% endfor %}
 </div>
+{% endif %}
 
-
+{% if site.data.msc %}
 <div class="row" id="msc" style="padding-top: 25px;margin-left: 0px;">
 <h2>Masters Students</h2>
   {% for member in site.data.msc %}
@@ -90,11 +97,11 @@ root: ../
     </div>
 {% endfor %}
 </div>
+{% endif %}
 
-
-
-<h2>Undergraduate Students</h2>
+{% if site.data.undergraduate %}
 <div class="row" id="undergraduate" style="padding-top: 25px;margin-left: 0px;">
+<h2>Undergraduate Students</h2>
  {% for member in site.data.undergraduate %}
     <div class="col-sm-4 col-md-3">
       <div class="thumbnail" style="min-height:320px;">
@@ -114,6 +121,7 @@ root: ../
     </div>
 {% endfor %}
 </div>
+{% endif %}
 
 
 <h1 id='adjunct' style="padding-top: 25px;margin-left: 0px;"> Adjunct Members </h1>
