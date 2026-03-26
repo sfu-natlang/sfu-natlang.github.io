@@ -1,13 +1,24 @@
-- name: Fred Popowich
+- name: Marzena Karpenska
   position: faculty
-  picture_url: http://www.cs.sfu.ca/content/sfu/computing/people/faculty/fredpopowich/_jcr_content/main_content/image.img.jpg/1385442311023.jpg
-  url: http://www.cs.sfu.ca/~popowich
-  publication_name: Fred Popowich
+  picture_url: https://marzenakrp.github.io/assets/img/prof_pic-480.webp
+  url: https://marzenakrp.github.io/
+  publication_name: Marzena Karpenska
+
+- name: Angel Chang
+  position: faculty
+  picture_url: https://angelxuanchang.github.io/files/angel.jpg
+  url: https://angelxuanchang.github.io/
+  publication_name: Angel X. Chang
 
 - name: Anoop Sarkar
   position: faculty
   picture_url: https://avatars0.githubusercontent.com/u/193767
-  url: http://www.cs.sfu.ca/~anoop
+  url: https://www.cs.sfu.ca/~anoop
   publication_name: Anoop Sarkar
 
+- name: Fred Popowich
+  position: faculty
+  picture_url: https://www.sfu.ca/content/sfu/fas/computing/people/faculty/faculty-members/popowich.img.-1150980836.png
+  url: https://www.cs.sfu.ca/~popowich
+  publication_name: Fred Popowich
 
