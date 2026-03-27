@@ -11,6 +11,135 @@
     abstract = "3D visual grounding (3DVG) involves localizing entities in a 3D scene referred to by natural language text. Such models are useful for embodied AI and scene retrieval applications, which involve searching for objects or patterns using natural language descriptions. While recent works have focused on LLM-based scaling of 3DVG datasets, these datasets do not capture the full range of potential prompts which could be specified in the English language. To ensure that we are scaling up and testing against a useful and representative set of prompts, we propose a framework for linguistically analyzing 3DVG prompts and introduce Visual Grounding with Diverse Language in 3D (ViGiL3D), a diagnostic dataset for evaluating visual grounding methods against a diverse set of language patterns. We evaluate existing open-vocabulary 3DVG methods to demonstrate that these methods are not yet proficient in understanding and identifying the targets of more challenging, out-of-distribution prompts, toward real-world applications."
 }
 
+@inproceedings{shavarani-sarkar-2025-entity,
+    title = "Entity Retrieval for Answering Entity-Centric Questions",
+    author = "Shavarani, Hassan  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 4th International Workshop on Knowledge-Augmented Methods for Natural Language Processing",
+    month = may,
+    year = "2025",
+    address = "Albuquerque, New Mexico, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.knowledgenlp-1.1/",
+    doi = "10.18653/v1/2025.knowledgenlp-1.1",
+    pages = "1--17",
+    ISBN = "979-8-89176-229-9",
+    abstract = "The similarity between the question and indexed documents is a key factor in document retrieval for retrieval-augmented question answering. Although this is typically the only method for obtaining the relevant documents, it is not the sole approach when dealing with entity-centric questions. We study Entity Retrieval, an alternative retrieval method, which rather than relying on question-document similarity, depends on the salient entities within the question to identify the retrieval documents. We conduct an in-depth analysis of the performance of both dense and sparse retrieval methods in comparison to Entity Retrieval. Our findings reveal the great potential of entity-driven methods for improving augmentation document retrieval in both accuracy and efficiency."
+}
+
+@inproceedings{ong-etal-2024-unified,
+    title = "Unified Examination of Entity Linking in Absence of Candidate Sets",
+    author = "Ong, Nicolas  and
+      Shavarani, Hassan  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-short.11/",
+    doi = "10.18653/v1/2024.naacl-short.11",
+    pages = "113--123",
+    abstract = "Despite remarkable strides made in the development of entity linking systems in recent years, a comprehensive comparative analysis of these systems using a unified framework is notably absent. This paper addresses this oversight by introducing a new black-box benchmark and conducting a comprehensive evaluation of all state-of-the-art entity linking methods. We use an ablation study to investigate the impact of candidate sets on the performance of entity linking. Our findings uncover exactly how much such entity linking systems depend on candidate sets, and how much this limits the general applicability of each system. We present an alternative approach to candidate sets, demonstrating that leveraging the entire in-domain candidate set can serve as a viable substitute for certain models. We show the trade-off between less restrictive candidate sets, increased inference time and memory footprint for some models."
+}
+
+@inproceedings{born-etal-2024-towards,
+    title = "Towards Fast Cognate Alignment on Imbalanced Data",
+    author = "Born, Logan  and
+      Monroe, M. Willis  and
+      Kelley, Kathryn  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the Second Workshop on Computation and Written Language (CAWL) @ LREC-COLING 2024",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.cawl-1.7/",
+    pages = "53--58",
+    abstract = "Cognate alignment models purport to enable decipherment, but their speed and need for clean data can make them unsuitable for realistic decipherment problems. We seek to draw attention to these shortcomings in the hopes that future work may avoid them, and we outline two techniques which begin to overcome the described problems."
+}
+
+@inproceedings{shavarani-sarkar-2023-spel,
+    title = "{S}p{EL}: Structured Prediction for Entity Linking",
+    author = "Shavarani, Hassan  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.686/",
+    doi = "10.18653/v1/2023.emnlp-main.686",
+    pages = "11123--11137",
+    abstract = "Entity linking is a prominent thread of research focused on structured data creation by linking spans of text to an ontology or knowledge source. We revisit the use of structured prediction for entity linking which classifies each individual input token as an entity, and aggregates the token predictions. Our system, called SpEL (Structured prediction for Entity Linking) is a state-of-the-art entity linking system that uses some new ideas to apply structured prediction to the task of entity linking including: two refined fine-tuning steps; a context sensitive prediction aggregation strategy; reduction of the size of the model{'}s output vocabulary, and; we address a common problem in entity-linking systems where there is a training vs. inference tokenization mismatch. Our experiments show that we can outperform the state-of-the-art on the commonly used AIDA benchmark dataset for entity linking to Wikipedia. Our method is also very compute efficient in terms of number of parameters and speed of inference."
+}
+
+@inproceedings{born-etal-2023-learning,
+    title = "Learning the Character Inventories of Undeciphered Scripts Using Unsupervised Deep Clustering",
+    author = "Born, Logan  and
+      Monroe, M. Willis  and
+      Kelley, Kathryn  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the Workshop on Computation and Written Language (CAWL 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.cawl-1.11/",
+    doi = "10.18653/v1/2023.cawl-1.11",
+    pages = "92--104",
+    abstract = "A crucial step in deciphering a text is to identify what set of characters were used to write it. This requires grouping character tokens according to visual and contextual features, which can be challenging for human analysts when the number of tokens or underlying types is large. Prior work has shown that this process can be automated by clustering dense representations of character images, in a task which we call ``script clustering''. In this work, we present novel architectures which exploit varying degrees of contextual and visual information to learn representations for use in script clustering. We evaluate on a range of modern and ancient scripts, and find that our models produce representations which are more effective for script recovery than the current state-of-the-art, despite using just {\textasciitilde}2{\%} as many parameters. Our analysis fruitfully applies these models to assess hypotheses about the character inventory of the partially-deciphered proto-Elamite script."
+}
+
+@inproceedings{born-etal-2023-disambiguating,
+    title = "Disambiguating Numeral Sequences to Decipher Ancient Accounting Corpora",
+    author = "Born, Logan  and
+      Monroe, M. Willis  and
+      Kelley, Kathryn  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the Workshop on Computation and Written Language (CAWL 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.cawl-1.9/",
+    doi = "10.18653/v1/2023.cawl-1.9",
+    pages = "71--81",
+    abstract = "A numeration system encodes abstract numeric quantities as concrete strings of written characters. The numeration systems used by modern scripts tend to be precise and unambiguous, but this was not so for the ancient and partially-deciphered proto-Elamite (PE) script, where written numerals can have up to four distinct readings depending on the system that is used to read them. We consider the task of disambiguating between these readings in order to determine the values of the numeric quantities recorded in this corpus. We algorithmically extract a list of possible readings for each PE numeral notation, and contribute two disambiguation techniques based on structural properties of the original documents and classifiers learned with the bootstrapping algorithm. We also contribute a test set for evaluating disambiguation techniques, as well as a novel approach to cautious rule selection for bootstrapped classifiers. Our analysis confirms existing intuitions about this script and reveals previously-unknown correlations between tablet content and numeral magnitude. This work is crucial to understanding and deciphering PE, as the corpus is heavily accounting-focused and contains many more numeric tokens than tokens of text."
+}
+
+@inproceedings{kambhatla-etal-2023-learning,
+    title = "Learning Nearest Neighbour Informed Latent Word Embeddings to Improve Zero-Shot Machine Translation",
+    author = "Kambhatla, Nishant  and
+      Born, Logan  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.iwslt-1.27/",
+    doi = "10.18653/v1/2023.iwslt-1.27",
+    pages = "291--301",
+    abstract = "Multilingual neural translation models exploit cross-lingual transfer to perform zero-shot translation between unseen language pairs. Past efforts to improve cross-lingual transfer have focused on aligning contextual sentence-level representations. This paper introduces three novel contributions to allow exploiting nearest neighbours at the token level during training, including: (i) an efficient, gradient-friendly way to share representations between neighboring tokens; (ii) an attentional semantic layer which extracts latent features from shared embeddings; and (iii) an agreement loss to harmonize predictions across different sentence representations. Experiments on two multilingual datasets demonstrate consistent gains in zero shot translation over strong baselines."
+}
+
+@inproceedings{jain-etal-2023-language,
+    title = "Language Model Based Target Token Importance Rescaling for Simultaneous Neural Machine Translation",
+    author = "Jain, Aditi  and
+      Kambhatla, Nishant  and
+      Sarkar, Anoop",
+    booktitle = "Proceedings of the 20th International Conference on Spoken Language Translation (IWSLT 2023)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada (in-person and online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.iwslt-1.32/",
+    doi = "10.18653/v1/2023.iwslt-1.32",
+    pages = "341--356",
+    abstract = "The decoder in simultaneous neural machine translation receives limited information from the source while having to balance the opposing requirements of latency versus translation quality. In this paper, we use an auxiliary target-side language model to augment the training of the decoder model. Under this notion of target adaptive training, generating rare or difficult tokens is rewarded which improves the translation quality while reducing latency. The predictions made by a language model in the decoder are combined with the traditional cross entropy loss which frees up the focus on the source side context. Our experimental results over multiple language pairs show that compared to previous state of the art methods in simultaneous translation, we can use an augmented target side context to improve BLEU scores significantly. We show improvements over the state of the art in the low latency range with lower average lagging values (faster output)."
+}
+
 @inproceedings{kambhatla-etal-2023-decipherment,
     abbr="EAMT",
     title = "Decipherment as Regression: Solving Historical Substitution Ciphers by Learning Symbol Recurrence Relations",
