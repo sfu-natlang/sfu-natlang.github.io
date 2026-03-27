@@ -29,15 +29,15 @@ The natural language laboratory at Simon Fraser University was founded in 1983 a
 
 Faculty, students and researchers from the School of Computing Science and the Department of Linguistics use the lab to conduct research in both the theory and applications of natural language processing. Our lab has done research in several areas of NLP including:
 
-Information extraction,
-Machine translation,
-Summarization of natural language document collections,
-Semi-supervised learning of language and language processing tasks
-Statistical syntactic and semantic parsing using treebanks,
-Theory of parsing and probabilistic grammars,
-Information retrieval,
-Computer assisted language learning,
-Natural language interfaces,
+- Information extraction,
+- Machine translation,
+- Summarization of natural language document collections,
+- Semi-supervised learning of language and language processing tasks
+- Statistical syntactic and semantic parsing using treebanks,
+- Theory of parsing and probabilistic grammars,
+- Information retrieval,
+- Computer assisted language learning,
+- Natural language interfaces
 
 A more comprehensive description of our current and past research is available in the list of Projects on this web site. Our lab has a strong relationship with the natural language industry in Canada. In 1999, researchers associated with the lab formed a company called Gavagai Inc., which became Axonwave Software Inc. in 2003. The company was founded to commercialize natural language processing technology.
 
@@ -57,10 +57,12 @@ We are always looking for motivated, good graduate students. We are also keen on
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/oldsite/tasc1-clerestory-sm-150x150.jpg" title="TASC-1 building interior" alt="TASC-1 building interior" class="pull-right" />
 
-Please contact either of the following faculty members:
-
+Please contact any of the following faculty members:
+-   [Marzena Karpinska](https://marzenakrp.github.io/). Assistant Professor, Computing Science
+-   [Linyi Li](https://cs.sfu.ca/~linyi/). Assistant Professor, Computing Science
+-   [Angel X. Chang](https://angelxuanchang.github.io/). Associate Professor, Computing Science
+-   [Anoop Sarkar](http://www.cs.sfu.ca/~anoop). Professor, Computing Science
 -   [Fred Popowich](http://www.cs.sfu.ca/~popowich). Professor, Computing Science
--   [Anoop Sarkar](http://www.cs.sfu.ca/~anoop). Associate Professor, Computing Science
 
 If you are a graduate student in the School of Computing Science and would like to know more about the lab and our activities, or if you are a prospective graduate student, please contact us for more information on the lab and your research interests. We are looking for qualified and motivated PhD students. Please note however, if you are applying for graduate school to the School of Computing Science at SFU, you are admitted only on the merit of your academic credentials and not based on your potential interest in any particular research lab.
 
